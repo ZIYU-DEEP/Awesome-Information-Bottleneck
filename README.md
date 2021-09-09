@@ -11,7 +11,7 @@
 It has been four years since the dazzling talk on [Opening the Black Box of Deep Neural Networks](https://www.youtube.com/watch?v=FSfN2K3tnJU). It is time for us to take a look back, to celebrate what has been established, and to prepare for a future.
 
 This repository is summarized as follows:
-- [Classics (must-read ones)](##1.-classics)
+- [Classics (must-read ones)](##1-classics)
 - [Theories](##1.-classics)
 - [Models](##1.-classics)
 - [Applications](##1.-classics)
