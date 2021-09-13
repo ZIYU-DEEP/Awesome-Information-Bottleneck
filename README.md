@@ -95,6 +95,24 @@ Pang Wei Koh, Thao Nguyen, Yew Siang Tang, Stephen Mussmann, Emma Pierson, Been 
 *ICML, 2020*
 <br>
 
+**Disentangled Representations for Sequence Data using Information Bottleneck Principle** [[link](http://proceedings.mlr.press/v129/yamada20a.html)] [[talk](https://papertalk.org/papertalks/13911)] \
+Masanori Yamada, Heecheol Kim, Kosuke Miyoshi, Tomoharu Iwata, Hiroshi Yamakawa\
+*ICML, 2020*
+<br>
+
+**Disentangled Information Bottleneck** [[link](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjhjduUk_vyAhVZ6XMBHQlpBPoQFnoECAQQAQ&url=https%3A%2F%2Fojs.aaai.org%2Findex.php%2FAAAI%2Farticle%2Fview%2F17120%2F16927&usg=AOvVaw1yu4FBl7RBV1xGUgh21VmY)] [[code](https://github.com/PanZiqiAI/disentangled-information-bottleneck)] \
+Ziqi Pan, Li Niu, Jianfu Zhang, Liqing Zhang\
+*AAAI, 2021*
+<br>
+
+**IB-GAN: Disentangled Representation Learning** [[link](https://ojs.aaai.org/index.php/AAAI/article/view/16967)] [[code](https://github.com/insuj3on/IB-GAN)][[talk](https://papertalk.org/papertalks/30379)]\
+Insu Jeon, Wonkwang Lee, Myeongjang Pyeon, Gunhee Kim\
+*AAAI, 2021*
+> This model add additional IB constraint based on InfoGAN.
+
+<br>
+
+
 **Deciding What to Learn: A Rate-Distortion Approach** [[link](https://arxiv.org/abs/2101.06197v3)] \
 Dilip Arumugam, Benjamin Van Roy\
 *ICML, 2021*
@@ -119,6 +137,11 @@ Bin Dai, Chen Zhu, Baining Guo, David Wipf \
 **Inserting Information Bottlenecks for Attribution in Transformers** [[link](https://arxiv.org/abs/2012.13838v2)] \
 Zhiying Jiang, Raphael Tang, Ji Xin, Jimmy Lin\
 *EMNLP, 2020*
+<br>
+
+**Information Bottleneck Disentanglement for Identity Swapping** [[link](https://openaccess.thecvf.com/content/CVPR2021/html/Gao_Information_Bottleneck_Disentanglement_for_Identity_Swapping_CVPR_2021_paper.html)] \
+Gege Gao, Huaibo Huang, Chaoyou Fu, Zhaoyang Li, Ran He\
+*CVPR, 2021*
 <br>
 
 ## 5. Surveys and Other Information Theory Driven Work
@@ -154,7 +177,30 @@ Alessandro Achille, Giovanni Paolini, Stefano Soatto\
 
 
 
-<!-- **** [[link]()] \
+
+
+<!--
+**** [[link]()] \
+\
+**
+<br>
+
+**** [[link]()] \
+\
+**
+<br>
+
+**** [[link]()] \
+\
+**
+<br>
+
+**** [[link]()] \
+\
+**
+<br>
+
+**** [[link]()] \
 \
 **
 <br> -->
