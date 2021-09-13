@@ -11,11 +11,11 @@
 It has been four years since the dazzling talk on [Opening the Black Box of Deep Neural Networks](https://www.youtube.com/watch?v=FSfN2K3tnJU). It is time for us to take a look back, to celebrate what has been established, and to prepare for a future.
 
 This repository is summarized as follows:
-- [Classics](##1-classics)
-- [Theories](##2-theories)
+- [Classics](#1-classics)
+- [Theories](#2-theories)
 - [Models](#3-models)
-- [Applications](##4-applications)
-- [Other Information Theory Driven Work](##5-surveys-and-other-information-theory-driven-work) (verbose)
+- [Applications](#4-applications)
+- [Other Information Theory Driven Work](#5-surveys-and-other-information-theory-driven-work) (verbose)
 
 
 ## 1. Classics
