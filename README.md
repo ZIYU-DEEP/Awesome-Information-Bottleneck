@@ -13,8 +13,8 @@ It has been four years since the dazzling talk on [Opening the Black Box of Deep
 This repository is summarized as follows:
 - [Classics](##1-classics)
 - [Theories](##1.-classics)
-- [Models](##1.-classics)
-- [Applications](##1.-classics)
+- [Models](##1-classics)
+- [Applications](##1-classics)
 - [Other Information Theory Driven Work](##1.-classics) (verbose)
 
 
