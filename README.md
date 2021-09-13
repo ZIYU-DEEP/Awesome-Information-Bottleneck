@@ -9,7 +9,7 @@
 ![illustration](./illustration.png)
 **To learn, you must forget**. This may probably be one of the most intuitive lessons we have from Naftali Tishby's Information Bottleneck (IB) methods, which grew out of the fundamental tradeoff (rate *v.s.* distortion) from Claude Shannon's information theory.
 
-It has been four years since the dazzling talk on [Opening the Black Box of Deep Neural Networks](https://www.youtube.com/watch?v=FSfN2K3tnJU), and more than twenty years since the [first paper](https://arxiv.org/abs/physics/0004057)) on Information Bottleneck. It is time for us to take a look back, to celebrate what has been established, and to prepare for a future.
+It has been four years since the dazzling talk on [Opening the Black Box of Deep Neural Networks](https://www.youtube.com/watch?v=FSfN2K3tnJU), and more than twenty years since the [first paper](https://arxiv.org/abs/physics/0004057) on the Information Bottleneck method. It is time for us to take a look back, to celebrate what has been established, and to prepare for a future.
 
 This repository is organized as follows:
 - [Classics](#1-classics)
@@ -30,7 +30,7 @@ Noam Slonim, Naftali Tishby\
 *NIPS, 1999*
 <br>
 
-**The Information Bottleneck Method** [[link](https://arxiv.org/abs/physics/0004057)] \
+🐤 **The Information Bottleneck Method** [[link](https://arxiv.org/abs/physics/0004057)] \
 Naftali Tishby, Fernando C. Pereira, William Bialek\
 *Preprint, 2000*
 <br>
@@ -76,19 +76,19 @@ Peter Harremoes and Naftali Tishby\
 *ISIT, 2007*
 <br>
 
-**Learning and Generalization with the Information Bottleneck** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/ibgen_full.pdf)] \
+🐤 **Learning and Generalization with the Information Bottleneck** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/ibgen_full.pdf)] \
 Ohad Shamir, Sivan Sabato, Naftali Tishby\
 *Journal of Theoretical Computer Science, 2009*
 <br>
 
-**Information-Theoretic Bounded Rationality** [[link](https://arxiv.org/abs/1512.06789)] \
+🐤 **Information-Theoretic Bounded Rationality** [[link](https://arxiv.org/abs/1512.06789)] \
 Pedro A. Ortega, Daniel A. Braun, Justin Dyer, Kee-Eung Kim, Naftali Tishby\
 *Preprint, 2015*
 <br>
 
 
 
-**Opening the Black Box of Deep Neural Networks via Information** [[link](https://arxiv.org/abs/1703.00810)] \
+🐤 **Opening the Black Box of Deep Neural Networks via Information** [[link](https://arxiv.org/abs/1703.00810)] \
 Ravid Shwartz-Ziv, Naftali Tishby\
 *ICRI, 2017*
 <br>
@@ -132,27 +132,27 @@ Amichai Painsky, Naftali Tishby\
 *JMLR, 2017*
 <br>
 
-**Caveats for information bottleneck in deterministic scenarios** [[link](https://arxiv.org/abs/1808.07593)] [[ICLR version]](https://openreview.net/forum?id=rke4HiAcY7) \
+**Caveats for information bottleneck in deterministic scenarios** [[link](https://arxiv.org/abs/1808.07593)] [[ICLR version](https://openreview.net/forum?id=rke4HiAcY7)]\
 Artemy Kolchinsky, Brendan D. Tracey, Steven Van Kuyk\
 *UAI, 2018*
 <br>
 
-**On the Information Bottleneck Theory of Deep Learning** [[link](https://openreview.net/forum?id=ry_WPG-A-)] \
+🐤 **On the Information Bottleneck Theory of Deep Learning** [[link](https://openreview.net/forum?id=ry_WPG-A-)] \
 Andrew Michael Saxe, Yamini Bansal, Joel Dapello, Madhu Advani, Artemy Kolchinsky, Brendan Daniel Tracey, David Daniel Cox\
 *ICLR, 2018*
 <br>
 
-**The Dual Information Bottleneck** [[link](https://arxiv.org/abs/2006.04641v1)] \
+🐤 **The Dual Information Bottleneck** [[link](https://arxiv.org/abs/2006.04641v1)] \
 Zoe Piran, Ravid Shwartz-Ziv, Naftali Tishby\
 *Preprint, 2019*
 <br>
 
-**Learnability for the Information Bottleneck** [[link](https://arxiv.org/abs/1907.07331)] [[slides](https://docs.google.com/presentation/d/1sBYA6V-mL6cwYxEWxA5oMDOKYEq1FIjvZ3jOoXDlVD8/edit?usp=sharing)] [[poster](https://docs.google.com/presentation/d/1jkMxI7j8YXTxtUdy9PAtRfYRaLvFdT7hI1qP9m-qDbE/edit?usp=sharing)] [[journal version](https://www.mdpi.com/1099-4300/21/10/924)] [[workshop version](https://openreview.net/forum?id=SJePKo5HdV)] \
+🐤 **Learnability for the Information Bottleneck** [[link](https://arxiv.org/abs/1907.07331)] [[slides](https://docs.google.com/presentation/d/1sBYA6V-mL6cwYxEWxA5oMDOKYEq1FIjvZ3jOoXDlVD8/edit?usp=sharing)] [[poster](https://docs.google.com/presentation/d/1jkMxI7j8YXTxtUdy9PAtRfYRaLvFdT7hI1qP9m-qDbE/edit?usp=sharing)] [[journal version](https://www.mdpi.com/1099-4300/21/10/924)] [[workshop version](https://openreview.net/forum?id=SJePKo5HdV)] \
 Tailin Wu, Ian Fischer, Isaac L. Chuang, Max Tegmark\
 *UAI, 2019*
 <br>
 
-**Phase Transitions for the Information Bottleneck in Representation Learning** [[link](https://openreview.net/forum?id=HJloElBYvB)] [[video](https://media.mis.mpg.de/mml/2021-02-04)] \
+🐤 **Phase Transitions for the Information Bottleneck in Representation Learning** [[link](https://openreview.net/forum?id=HJloElBYvB)] [[video](https://media.mis.mpg.de/mml/2021-02-04)] \
 Tailin Wu, Ian Fischer\
 *ICLR, 2020*
 <br>
@@ -167,12 +167,17 @@ DJ Strouse, David J. Schwab\
 
 <br>
 
+**Learning Sparse Latent Representations with the Deep Copula Information Bottleneck** [[link](https://openreview.net/forum?id=Hk0wHx-RW)] \
+Aleksander Wieczorek, Mario Wieser, Damian Murezzan, Volker Roth \
+*ICLR, 2018*
+<br>
+
 **Information bottleneck through variational glasses** [[link](http://bayesiandeeplearning.org/2019/papers/75.pdf)]\
 Slava Voloshynovskiy, Mouad Kondah, Shideh Rezaeifar, Olga Taran, Taras Holotyak, Danilo Jimenez Rezende\
 *NeurIPS Bayesian Deep Learning Workshop, 2019*
 <br>
 
-**Variational Discriminator Bottleneck** [[link](https://openreview.net/forum?id=HyxPx3R9tm)] \
+🐤 **Variational Discriminator Bottleneck** [[link](https://openreview.net/forum?id=HyxPx3R9tm)] \
 Xue Bin Peng, Angjoo Kanazawa, Sam Toyer, Pieter Abbeel, Sergey Levine\
 *ICLR, 2019*
 <br>
@@ -184,12 +189,12 @@ Artemy Kolchinsky, Brendan Tracey, David Wolpert\
 
 <br>
 
-**Graph Information Bottleneck** [[link](https://arxiv.org/abs/2010.12811)] [[code](https://github.com/snap-stanford/GIB)] [[slides](https://docs.google.com/presentation/d/1yGs6kfaFHKlZdu0REuSpZTN4Pqt7b0bAnh2y8lvYm3A/edit)] \
+🐤 **Graph Information Bottleneck** [[link](https://arxiv.org/abs/2010.12811)] [[code](https://github.com/snap-stanford/GIB)] [[slides](https://docs.google.com/presentation/d/1yGs6kfaFHKlZdu0REuSpZTN4Pqt7b0bAnh2y8lvYm3A/edit)] \
 Tailin Wu, Hongyu Ren, Pan Li, Jure Leskovec,\
 *NeurIPS, 2020*
 <br>
 
-**Learning Optimal Representations with the Decodable Information Bottleneck** [[link](https://papers.nips.cc/paper/2020/hash/d8ea5f53c1b1eb087ac2e356253395d8-Abstract.html)] \
+🐤 **Learning Optimal Representations with the Decodable Information Bottleneck** [[link](https://papers.nips.cc/paper/2020/hash/d8ea5f53c1b1eb087ac2e356253395d8-Abstract.html)] \
 Yann Dubois, Douwe Kiela, David J. Schwab, Ramakrishna Vedantam\
 *NeurIPS, 2020*
 <br>
@@ -199,7 +204,7 @@ Maximilian Igl, Kamil Ciosek, Yingzhen Li, Sebastian Tschiatschek, Cheng Zhang, 
 *NeurIPS, 2019*
 <br>
 
-**Concept Bottleneck Models** [[link](https://arxiv.org/abs/2007.04612v3)] \
+🐤 **Concept Bottleneck Models** [[link](https://arxiv.org/abs/2007.04612v3)] \
 Pang Wei Koh, Thao Nguyen, Yew Siang Tang, Stephen Mussmann, Emma Pierson, Been Kim, Percy Liang\
 *ICML, 2020*
 <br>
@@ -209,7 +214,7 @@ Masanori Yamada, Heecheol Kim, Kosuke Miyoshi, Tomoharu Iwata, Hiroshi Yamakawa\
 *ICML, 2020*
 <br>
 
-**IBA: Restricting the Flow: Information Bottlenecks for Attribution** [[link](https://openreview.net/forum?id=S1xWh1rYwB)] [[code](https://github.com/BioroboticsLab/IBA)] \
+🐤 **IBA: Restricting the Flow: Information Bottlenecks for Attribution** [[link](https://openreview.net/forum?id=S1xWh1rYwB)] [[code](https://github.com/BioroboticsLab/IBA)] \
 Karl Schulz, Leon Sixt, Federico Tombari, Tim Landgraf\
 *ICLR, 2020*
 <br>
@@ -219,7 +224,7 @@ Ziqi Pan, Li Niu, Jianfu Zhang, Liqing Zhang\
 *AAAI, 2021*
 <br>
 
-**IB-GAN: Disentangled Representation Learning** [[link](https://ojs.aaai.org/index.php/AAAI/article/view/16967)] [[code](https://github.com/insuj3on/IB-GAN)][[talk](https://papertalk.org/papertalks/30379)]\
+🐤 **IB-GAN: Disentangled Representation Learning** [[link](https://ojs.aaai.org/index.php/AAAI/article/view/16967)] [[code](https://github.com/insuj3on/IB-GAN)][[talk](https://papertalk.org/papertalks/30379)]\
 Insu Jeon, Wonkwang Lee, Myeongjang Pyeon, Gunhee Kim\
 *AAAI, 2021*
 > This model add additional IB constraint based on InfoGAN.
@@ -233,7 +238,7 @@ Dilip Arumugam, Benjamin Van Roy\
 <br>
 
 ## 5. Applications
-**Analyzing neural codes using the information bottleneck method** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/nips01_sub.pdf)] \
+🐤 **Analyzing neural codes using the information bottleneck method** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/nips01_sub.pdf)] \
 Elad Schneidman, Noam Slonim, Naftali Tishby, Rob R. deRuyter van Steveninck, William Bialek\
 *NIPS, 2001*
 <br>
@@ -243,7 +248,7 @@ Felix Creutzig, Amir Globerson, Naftali Tishby\
 *Physical Review, 2009*
 <br>
 
-**InfoBot: Transfer and Exploration via the Information Bottleneck** [[link](https://openreview.net/forum?id=rJg8yhAqKm)] \
+🐤 **InfoBot: Transfer and Exploration via the Information Bottleneck** [[link](https://openreview.net/forum?id=rJg8yhAqKm)] \
 Anirudh Goyal, Riashat Islam, DJ Strouse, Zafarali Ahmed, Hugo Larochelle, Matthew Botvinick, Yoshua Bengio, Sergey Levine\
 *ICLR, 2018*
 <br>
@@ -253,7 +258,7 @@ Bin Dai, Chen Zhu, Baining Guo, David Wipf \
 *ICML, 2018*
 <br>
 
-**InfoMask: Masked Variational Latent Representation to Localize Chest Disease** [[link](https://arxiv.org/abs/1903.11741)] \
+🐤 **InfoMask: Masked Variational Latent Representation to Localize Chest Disease** [[link](https://arxiv.org/abs/1903.11741)] \
 Saeid Asgari Taghanaki, Mohammad Havaei, Tess Berthier, Francis Dutil, Lisa Di Jorio, Ghassan Hamarneh, Yoshua Bengio\
 *MICCAI, 2019*
 > Be aware how this differs from the [IBA](https://openreview.net/forum?id=S1xWh1rYwB) paper.
@@ -285,12 +290,12 @@ Rundong Wang, Xu He, Runsheng Yu, Wei Qiu, Bo An, Zinovi Rabinovich\
 *ICML, 2020*
 <br>
 
-**Inserting Information Bottlenecks for Attribution in Transformers** [[link](https://arxiv.org/abs/2012.13838v2)] \
+🐤 **Inserting Information Bottlenecks for Attribution in Transformers** [[link](https://arxiv.org/abs/2012.13838v2)] \
 Zhiying Jiang, Raphael Tang, Ji Xin, Jimmy Lin\
 *EMNLP, 2020*
 <br>
 
-**Information Bottleneck Disentanglement for Identity Swapping** [[link](https://openaccess.thecvf.com/content/CVPR2021/html/Gao_Information_Bottleneck_Disentanglement_for_Identity_Swapping_CVPR_2021_paper.html)] \
+🐤 **Information Bottleneck Disentanglement for Identity Swapping** [[link](https://openaccess.thecvf.com/content/CVPR2021/html/Gao_Information_Bottleneck_Disentanglement_for_Identity_Swapping_CVPR_2021_paper.html)] \
 Gege Gao, Huaibo Huang, Chaoyou Fu, Zhaoyang Li, Ran He\
 *CVPR, 2021*
 <br>
@@ -300,7 +305,7 @@ Ayush Srivastava, Oshin Dutta, Jigyasa Gupta, Sumeet Agarwal, Prathosh AP\
 *WACV, 2021*
 <br>
 
-**State Predictive Information Bottleneck** [[link](https://arxiv.org/abs/2011.10127)] [[code](https://github.com/tiwarylab/State-Predictive-Information-Bottleneck)] \
+🐤 **State Predictive Information Bottleneck** [[link](https://arxiv.org/abs/2011.10127)] [[code](https://github.com/tiwarylab/State-Predictive-Information-Bottleneck)] \
 Dedi Wang, Pratyush Tiwary\
 *Preprint, 2021*
 <br>
@@ -709,12 +714,9 @@ Tailin Wu\
 
 
 
-<!-- **** [[link]()] \
-\
-**
-<br>
 
-**** [[link]()] \
+
+<!-- **** [[link]()] \
 \
 **
 <br>
