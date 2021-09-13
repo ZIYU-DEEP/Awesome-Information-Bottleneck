@@ -73,6 +73,11 @@ DJ Strouse, David J. Schwab\
 
 <br>
 
+**Information bottleneck through variational glasses** [[link](http://bayesiandeeplearning.org/2019/papers/75.pdf)]\
+Slava Voloshynovskiy, Mouad Kondah, Shideh Rezaeifar, Olga Taran, Taras Holotyak, Danilo Jimenez Rezende\
+*NeurIPS Bayesian Deep Learning Workshop, 2019*
+<br>
+
 **Variational Discriminator Bottleneck** [[link](https://openreview.net/forum?id=HyxPx3R9tm)] \
 Xue Bin Peng, Angjoo Kanazawa, Sam Toyer, Pieter Abbeel, Sergey Levine\
 *ICLR, 2019*
@@ -90,6 +95,11 @@ Tailin Wu, Hongyu Ren, Pan Li, Jure Leskovec,\
 *NeurIPS, 2020*
 <br>
 
+**Learning Optimal Representations with the Decodable Information Bottleneck** [[link](https://papers.nips.cc/paper/2020/hash/d8ea5f53c1b1eb087ac2e356253395d8-Abstract.html)] \
+Yann Dubois, Douwe Kiela, David J. Schwab, Ramakrishna Vedantam\
+*NeurIPS, 2020*
+<br>
+
 **Concept Bottleneck Models** [[link](https://arxiv.org/abs/2007.04612v3)] \
 Pang Wei Koh, Thao Nguyen, Yew Siang Tang, Stephen Mussmann, Emma Pierson, Been Kim, Percy Liang\
 *ICML, 2020*
@@ -98,6 +108,11 @@ Pang Wei Koh, Thao Nguyen, Yew Siang Tang, Stephen Mussmann, Emma Pierson, Been 
 **Disentangled Representations for Sequence Data using Information Bottleneck Principle** [[link](http://proceedings.mlr.press/v129/yamada20a.html)] [[talk](https://papertalk.org/papertalks/13911)] \
 Masanori Yamada, Heecheol Kim, Kosuke Miyoshi, Tomoharu Iwata, Hiroshi Yamakawa\
 *ICML, 2020*
+<br>
+
+**IBA: Restricting the Flow: Information Bottlenecks for Attribution** [[link](https://openreview.net/forum?id=S1xWh1rYwB)] [[code](https://github.com/BioroboticsLab/IBA)] \
+Karl Schulz, Leon Sixt, Federico Tombari, Tim Landgraf\
+*ICLR, 2020*
 <br>
 
 **Disentangled Information Bottleneck** [[link](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjhjduUk_vyAhVZ6XMBHQlpBPoQFnoECAQQAQ&url=https%3A%2F%2Fojs.aaai.org%2Findex.php%2FAAAI%2Farticle%2Fview%2F17120%2F16927&usg=AOvVaw1yu4FBl7RBV1xGUgh21VmY)] [[code](https://github.com/PanZiqiAI/disentangled-information-bottleneck)] \
@@ -134,6 +149,23 @@ Bin Dai, Chen Zhu, Baining Guo, David Wipf \
 *ICML, 2018*
 <br>
 
+**InfoMask: Masked Variational Latent Representation to Localize Chest Disease** [[link](https://arxiv.org/abs/1903.11741)] \
+Saeid Asgari Taghanaki, Mohammad Havaei, Tess Berthier, Francis Dutil, Lisa Di Jorio, Ghassan Hamarneh, Yoshua Bengio\
+*MICCAI, 2019*
+> Be aware how this differs from the [IBA](https://openreview.net/forum?id=S1xWh1rYwB) paper.
+
+<br>
+
+**Kernelized information bottleneck leads to biologically plausible 3-factor Hebbian learning in deep networks** [[link](https://papers.nips.cc/paper/2020/hash/517f24c02e620d5a4dac1db388664a63-Abstract.html)] \
+Roman Pogodin, Peter Latham\
+*NeurIPS, 2020*
+<br>
+
+**Training Normalizing Flows with the Information Bottleneck for Competitive Generative Classification** [[link](https://papers.nips.cc/paper/2020/hash/593906af0d138e69f49d251d3e7cbed0-Abstract.html)] \
+Lynton Ardizzone, Radek Mackowiak, Carsten Rother, Ullrich Köthe\
+*NeurIPS, 2020*
+<br>
+
 **Inserting Information Bottlenecks for Attribution in Transformers** [[link](https://arxiv.org/abs/2012.13838v2)] \
 Zhiying Jiang, Raphael Tang, Ji Xin, Jimmy Lin\
 *EMNLP, 2020*
@@ -144,10 +176,72 @@ Gege Gao, Huaibo Huang, Chaoyou Fu, Zhaoyang Li, Ran He\
 *CVPR, 2021*
 <br>
 
+**A Variational Information Bottleneck Based Method to Compress Sequential Networks for Human Action Recognition** [[link](https://openaccess.thecvf.com/content/WACV2021/papers/Srivastava_A_Variational_Information_Bottleneck_Based_Method_to_Compress_Sequential_Networks_WACV_2021_paper.pdf)] \
+Ayush Srivastava, Oshin Dutta, Jigyasa Gupta, Sumeet Agarwal, Prathosh AP\
+*WACV, 2021*
+<br>
+
+**State Predictive Information Bottleneck** [[link](https://arxiv.org/abs/2011.10127)] [[code](https://github.com/tiwarylab/State-Predictive-Information-Bottleneck)] \
+Dedi Wang, Pratyush Tiwary\
+*Preprint, 2021*
+<br>
+
 ## 5. Surveys and Other Information Theory Driven Work
+**InfoMax: Learning deep representations by mutual information estimation and maximization** [[link](https://openreview.net/forum?id=Bklr3j0cKX)][[code](https://github.com/rdevon/DIM)] \
+R Devon Hjelm, Alex Fedorov, Samuel Lavoie-Marchildon, Karan Grewal, Phil Bachman, Adam Trischler, Yoshua Bengio\
+*ICLR, 2019*
+<br>
+
+**Where is the Information in a Deep Neural Network?** [[link](https://arxiv.org/abs/1905.12213)] \
+Alessandro Achille, Giovanni Paolini, Stefano Soatto\
+*Preprint, 2020*
+<br>
+
 **On the Information Bottleneck Problems: Models, Connections, Applications and Information Theoretic Views** [[link](https://www.mdpi.com/1099-4300/22/2/151)] \
 Abdellatif Zaidi, Iñaki Estella-Aguerri, Shlomo Shamai\
 *Entropy, 2020*
+<br>
+
+**Information Maximization for Few-Shot Learning** [[link](https://papers.nips.cc/paper/2020/hash/196f5641aa9dc87067da4ff90fd81e7b-Abstract.html)] \
+Malik Boudiaf, Imtiaz Ziko, Jérôme Rony, Jose Dolz, Pablo Piantanida, Ismail Ben Ayed\
+*NeurIPS, 2020*
+<br>
+
+**Belief-Dependent Macro-Action Discovery in POMDPs using the Value of Information** [[link](https://papers.nips.cc/paper/2020/hash/7f2be1b45d278ac18804b79207a24c53-Abstract.html)] \
+Genevieve Flaspohler, Nicholas A. Roy, John W. Fisher III\
+*NeurIPS, 2020*
+<br>
+
+**Predictive Information Accelerates Learning in RL** [[link](https://papers.nips.cc/paper/2020/hash/89b9e0a6f6d1505fe13dea0f18a2dcfa-Abstract.html)] \
+Kuang-Huei Lee, Ian Fischer, Anthony Liu, Yijie Guo, Honglak Lee, John Canny, Sergio Guadarrama\
+*NeurIPS, 2020*
+> "The Predictive Information is the mutual information between the past and the future, $I(X_{\text{past}}; X_{\text{future}})$."
+
+<br>
+
+**Information Theoretic Regret Bounds for Online Nonlinear Control** [[link](https://papers.nips.cc/paper/2020/hash/aee5620fa0432e528275b8668581d9a8-Abstract.html)] \
+Sham Kakade, Akshay Krishnamurthy, Kendall Lowrey, Motoya Ohnishi, Wen Sun\
+*NeurIPS, 2020*
+<br>
+
+**Conditioning and Processing: Techniques to Improve Information-Theoretic Generalization Bounds** [[link](https://papers.nips.cc/paper/2020/hash/befe5b0172188ad14d48c3ebe9cf76bf-Abstract.html)] \
+Hassan Hafez-Kolahi, Zeinab Golgooni, Shohreh Kasaei, Mahdieh Soleymani\
+*NeurIPS, 2020*
+<br>
+
+**Variational Interaction Information Maximization for Cross-domain Disentanglement** [[link](https://papers.nips.cc/paper/2020/hash/fe663a72b27bdc613873fbbb512f6f67-Abstract.html)] \
+HyeongJoo Hwang, Geon-Hyeong Kim, Seunghoon Hong, Kee-Eung Kim\
+*NeurIPS, 2020*
+<br>
+
+**Information theoretic limits of learning a sparse rule** [[link](https://papers.nips.cc/paper/2020/hash/713fd63d76c8a57b16fc433fb4ae718a-Abstract.html)] \
+Clément Luneau, jean barbier, Nicolas Macris\
+*NeurIPS, 2020*
+<br>
+
+**Understanding Approximate Fisher Information for Fast Convergence of Natural Gradient Descent in Wide Neural Networks** [[link](https://papers.nips.cc/paper/2020/hash/7b41bfa5085806dfa24b8c9de0ce567f-Abstract.html)] \
+Ryo Karakida, Kazuki Osawa\
+*NeurIPS, 2020*
 <br>
 
 **ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction** [[link](https://arxiv.org/abs/2105.10446)] [[code](https://github.com/ryanchankh/ReduNet)] \
@@ -160,10 +254,6 @@ Tailin Wu\
 *PhD Thesis, 2021*
 <br>
 
-**Where is the Information in a Deep Neural Network?** [[link](https://arxiv.org/abs/1905.12213)] \
-Alessandro Achille, Giovanni Paolini, Stefano Soatto\
-*Preprint, 2020*
-<br>
 
 
 
@@ -179,20 +269,25 @@ Alessandro Achille, Giovanni Paolini, Stefano Soatto\
 
 
 
-<!--
-**** [[link]()] \
+
+
+
+
+
+
+<!-- **** [[link]()] \
 \
-**
-<br>
-
-**** [[link]()] \
-\
-**
+*NeurIPS, 2020*
 <br>
 
 **** [[link]()] \
 \
-**
+*NeurIPS, 2020*
+<br>
+
+**** [[link]()] \
+\
+*NeurIPS, 2020*
 <br>
 
 **** [[link]()] \
@@ -206,8 +301,26 @@ Alessandro Achille, Giovanni Paolini, Stefano Soatto\
 <br> -->
 
 
-<!--
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
 **** [[link]()] \
 \
 **
