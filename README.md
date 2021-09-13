@@ -11,11 +11,11 @@
 It has been four years since the dazzling talk on [Opening the Black Box of Deep Neural Networks](https://www.youtube.com/watch?v=FSfN2K3tnJU). It is time for us to take a look back, to celebrate what has been established, and to prepare for a future.
 
 This repository is summarized as follows:
-- [Classics (must-read ones)](##1-classics)
+- [Classics](##1-classics)
 - [Theories](##1.-classics)
 - [Models](##1.-classics)
 - [Applications](##1.-classics)
-- [Other Information Theory Driven Work](##1.-classics)
+- [Other Information Theory Driven Work](##1.-classics) (verbose)
 
 
 ## 1. Classics
@@ -98,6 +98,11 @@ Tailin Wu, Hongyu Ren, Pan Li, Jure Leskovec,\
 **Learning Optimal Representations with the Decodable Information Bottleneck** [[link](https://papers.nips.cc/paper/2020/hash/d8ea5f53c1b1eb087ac2e356253395d8-Abstract.html)] \
 Yann Dubois, Douwe Kiela, David J. Schwab, Ramakrishna Vedantam\
 *NeurIPS, 2020*
+<br>
+
+**Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck** [[link](https://papers.nips.cc/paper/2019/hash/e2ccf95a7f2e1878fcafc8376649b6e8-Abstract.html)] \
+Maximilian Igl, Kamil Ciosek, Yingzhen Li, Sebastian Tschiatschek, Cheng Zhang, Sam Devlin, Katja Hofmann\
+*NeurIPS, 2019*
 <br>
 
 **Concept Bottleneck Models** [[link](https://arxiv.org/abs/2007.04612v3)] \
@@ -187,9 +192,95 @@ Dedi Wang, Pratyush Tiwary\
 <br>
 
 ## 5. Surveys and Other Information Theory Driven Work
+**f-GANs in an Information Geometric Nutshell** [[link](https://papers.nips.cc/paper/2017/hash/2f2b265625d76a6704b08093c652fd79-Abstract.html)] \
+Richard Nock, Zac Cranko, Aditya K. Menon, Lizhen Qu, Robert C. Williamson\
+*NeurIPS, 2017*
+<br>
+
+**Fully Decentralized Policies for Multi-Agent Systems: An Information Theoretic Approach** [[link](https://papers.nips.cc/paper/2017/hash/8bb88f80d334b1869781beb89f7b73be-Abstract.html)] \
+Roel Dobbe, David Fridovich-Keil, Claire Tomlin\
+*NeurIPS, 2017*
+<br>
+
+**Information Theoretic Properties of Markov Random Fields, and their Algorithmic Applications** [[link](https://papers.nips.cc/paper/2017/hash/8fb5f8be2aa9d6c64a04e3ab9f63feee-Abstract.html)] \
+Linus Hamilton, Frederic Koehler, Ankur Moitra\
+*NeurIPS, 2017*
+<br>
+
+**Information-theoretic analysis of generalization capability of learning algorithms** [[link](https://papers.nips.cc/paper/2017/hash/ad71c82b22f4f65b9398f76d8be4c615-Abstract.html)] \
+Aolin Xu, Maxim Raginsky\
+*NeurIPS, 2017*
+<br>
+
+**Entropy and mutual information in models of deep neural networks** [[link](https://papers.nips.cc/paper/2018/hash/6d0f846348a856321729a2f36734d1a7-Abstract.html)] \
+Marylou Gabrié, Andre Manoel, Clément Luneau, jean barbier, Nicolas Macris, Florent Krzakala, Lenka Zdeborová\
+*NeurIPS, 2018*
+<br>
+
+**Chaining Mutual Information and Tightening Generalization Bounds** [[link](https://papers.nips.cc/paper/2018/hash/8d7628dd7a710c8638dbd22d4421ee46-Abstract.html)] \
+Amir Asadi, Emmanuel Abbe, Sergio Verdu\
+*NeurIPS, 2018*
+<br>
+
+**Information Constraints on Auto-Encoding Variational Bayes** [[link](https://papers.nips.cc/paper/2018/hash/9a96a2c73c0d477ff2a6da3bf538f4f4-Abstract.html)] \
+Romain Lopez, Jeffrey Regier, Michael I. Jordan, Nir Yosef\
+*NeurIPS, 2018*
+<br>
+
+**Adaptive Learning with Unknown Information Flows** [[link](https://papers.nips.cc/paper/2018/hash/9e740b84bb48a64dde25061566299467-Abstract.html)] \
+Yonatan Gur, Ahmadreza Momeni\
+*NeurIPS, 2018*
+<br>
+
+**Information-based Adaptive Stimulus Selection to Optimize Communication Efficiency in Brain-Computer Interfaces** [[link](https://papers.nips.cc/paper/2018/hash/a3eb043e7bf775de87763e9f8121c953-Abstract.html)] \
+Boyla Mainsah, Dmitry Kalika, Leslie Collins, Siyuan Liu, Chandra Throckmorton\
+*NeurIPS, 2018*
+<br>
+
 **InfoMax: Learning deep representations by mutual information estimation and maximization** [[link](https://openreview.net/forum?id=Bklr3j0cKX)][[code](https://github.com/rdevon/DIM)] \
 R Devon Hjelm, Alex Fedorov, Samuel Lavoie-Marchildon, Karan Grewal, Phil Bachman, Adam Trischler, Yoshua Bengio\
 *ICLR, 2019*
+<br>
+
+
+**Locality-Sensitive Hashing for f-Divergences: Mutual Information Loss and Beyond** [[link](https://papers.nips.cc/paper/2019/hash/21b29648a47a45ad16bb0da0c004dfba-Abstract.html)] \
+Lin Chen, Hossein Esfandiari, Gang Fu, Vahab Mirrokni\
+*NeurIPS, 2019*
+<br>
+
+**Information-Theoretic Confidence Bounds for Reinforcement Learning** [[link](https://papers.nips.cc/paper/2019/hash/411ae1bf081d1674ca6091f8c59a266f-Abstract.html)] \
+Xiuyuan Lu, Benjamin Van Roy\
+*NeurIPS, 2019*
+<br>
+
+**L-DMI: A Novel Information-theoretic Loss Function for Training Deep Nets Robust to Label Noise** [[link](https://papers.nips.cc/paper/2019/hash/8a1ee9f2b7abe6e88d1a479ab6a42c5e-Abstract.html)] \
+Yilun Xu, Peng Cao, Yuqing Kong, Yizhou Wang\
+*NeurIPS, 2019*
+<br>
+
+**Connections Between Mirror Descent, Thompson Sampling and the Information Ratio** [[link](https://papers.nips.cc/paper/2019/hash/92cf3f7ef90630755b955924254e6ec4-Abstract.html)] \
+Julian Zimmert, Tor Lattimore\
+*NeurIPS, 2019*
+<br>
+
+**Region Mutual Information Loss for Semantic Segmentation** [[link](https://papers.nips.cc/paper/2019/hash/a67c8c9a961b4182688768dd9ba015fe-Abstract.html)] \
+Shuai Zhao, Yang Wang, Zheng Yang, Deng Cai\
+*NeurIPS, 2019*
+<br>
+
+**Learning Representations by Maximizing Mutual Information Across Views** [[link](https://papers.nips.cc/paper/2019/hash/ddf354219aac374f1d40b7e760ee5bb7-Abstract.html)]\
+Philip Bachman, R Devon Hjelm, William Buchwalter\
+*NeurIPS, 2019*
+<br>
+
+**Icebreaker: Element-wise Efficient Information Acquisition with a Bayesian Deep Latent Gaussian Model** [[link](https://papers.nips.cc/paper/2019/hash/c055dcc749c2632fd4dd806301f05ba6-Abstract.html)] \
+Wenbo Gong, Sebastian Tschiatschek, Sebastian Nowozin, Richard E. Turner, José Miguel Hernández-Lobato, Cheng Zhang\
+*NeurIPS, 2019*
+<br>
+
+**Thompson Sampling with Information Relaxation Penalties** [[link](https://papers.nips.cc/paper/2019/hash/e5b294b70c9647dcf804d7baa1903918-Abstract.html)] \
+Seungki Min, Costis Maglaras, Ciamac C. Moallemi\
+*NeurIPS, 2019*
 <br>
 
 **Where is the Information in a Deep Neural Network?** [[link](https://arxiv.org/abs/1905.12213)] \
@@ -215,7 +306,7 @@ Genevieve Flaspohler, Nicholas A. Roy, John W. Fisher III\
 **Predictive Information Accelerates Learning in RL** [[link](https://papers.nips.cc/paper/2020/hash/89b9e0a6f6d1505fe13dea0f18a2dcfa-Abstract.html)] \
 Kuang-Huei Lee, Ian Fischer, Anthony Liu, Yijie Guo, Honglak Lee, John Canny, Sergio Guadarrama\
 *NeurIPS, 2020*
-> "The Predictive Information is the mutual information between the past and the future, $I(X_{\text{past}}; X_{\text{future}})$."
+> "The **predictive information** is the **mutual information** between the *past* and the *future*, $I(X_{\text{past}}; X_{\text{future}})$."
 
 <br>
 
@@ -275,30 +366,24 @@ Tailin Wu\
 
 
 
+
+
+
+
+
+
+
 <!-- **** [[link]()] \
 \
-*NeurIPS, 2020*
+*NeurIPS, 2017*
 <br>
 
 **** [[link]()] \
 \
-*NeurIPS, 2020*
-<br>
-
-**** [[link]()] \
-\
-*NeurIPS, 2020*
-<br>
-
-**** [[link]()] \
-\
-**
-<br>
-
-**** [[link]()] \
-\
-**
+*NeurIPS, 2017*
 <br> -->
+
+
 
 
 
