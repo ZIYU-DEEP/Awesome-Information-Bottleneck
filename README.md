@@ -6,16 +6,21 @@
 
 
 ## 0. Introduction
+![illustration](./illustration.png)
 **To learn, you must forget**. This may probably be one of the most intuitive lessons we have from Naftali Tishby's Information Bottleneck (IB) methods, which grew out of the fundamental tradeoff (rate *v.s.* distortion) from Claude Shannon's information theory.
 
 It has been four years since the dazzling talk on [Opening the Black Box of Deep Neural Networks](https://www.youtube.com/watch?v=FSfN2K3tnJU). It is time for us to take a look back, to celebrate what has been established, and to prepare for a future.
 
-This repository is summarized as follows:
+This repository is organized as follows:
 - [Classics](#1-classics)
 - [Theories](#2-theories)
 - [Models](#3-models)
 - [Applications](#4-applications)
 - [Other Information Theory Driven Work](#5-surveys-and-other-information-theory-driven-work) (verbose)
+
+All papers are selected and sorted by topic/conference/year/importance. Please send a pull request if you would like to add any paper.
+
+This repository is last updated on September 2021.
 
 
 ## 1. Classics
