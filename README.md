@@ -13,6 +13,7 @@ It has been four years since the dazzling talk on [Opening the Black Box of Deep
 
 This repository is organized as follows:
 - [Classics](#1-classics)
+- [Reviews](#2-reviews)
 - [Theories](#2-theories)
 - [Models](#3-models)
 - [Applications](#4-applications)
@@ -44,7 +45,35 @@ Alexander A. Alemi, Ian Fischer, Joshua V. Dillon, Kevin Murphy\
 *ICLR, 2017*
 <br>
 
-## 2. Theories
+## 2. Reviews
+**Information Bottleneck and its Applications in Deep Learning** [[link](https://arxiv.org/abs/1904.03743)] \
+Hassan Hafez-Kolahi, Shohreh Kasaei\
+*Preprint, 2019*
+<br>
+
+**The Information Bottleneck Problem and Its Applications in Machine Learning** [[link](https://arxiv.org/abs/2004.14941)] \
+Ziv Goldfeld, Yury Polyanskiy\
+*Preprint, 2020*
+<br>
+
+**On the Information Bottleneck Problems: Models, Connections, Applications and Information Theoretic Views** [[link](https://www.mdpi.com/1099-4300/22/2/151)] \
+Abdellatif Zaidi, Iñaki Estella-Aguerri, Shlomo Shamai\
+*Entropy, 2020*
+<br>
+
+**Information Bottleneck: Theory and Applications in Deep Learning** [[link](https://www.mdpi.com/1099-4300/22/12/1408)] \
+Bernhard C. Geiger, Gernot Kubin\
+*Entropy, 2020*
+<br>
+
+**A Critical Review of Information Bottleneck Theory and its Applications to Deep Learning** [[link](https://arxiv.org/abs/2105.04405v1)] \
+Mohammad Ali Alomrani\
+*Preprint, 2021*
+<br>
+
+
+
+## 3. Theories
 **Caveats for information bottleneck in deterministic scenarios** [[link](https://arxiv.org/abs/1808.07593)] [[ICLR version]](https://openreview.net/forum?id=rke4HiAcY7) \
 Artemy Kolchinsky, Brendan D. Tracey, Steven Van Kuyk\
 *UAI, 2018*
@@ -70,7 +99,9 @@ Tailin Wu, Ian Fischer\
 *ICLR, 2020*
 <br>
 
-## 3. Models
+
+
+## 4. Models
 **The Deterministic Information Bottleneck** [[link]()] \
 DJ Strouse, David J. Schwab\
 *Neural Computation, 2017*
@@ -143,7 +174,7 @@ Dilip Arumugam, Benjamin Van Roy\
 *ICML, 2021*
 <br>
 
-## 4. Applications
+## 5. Applications
 **Past-future information bottleneck in dynamical systems** [[link](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.79.041925)] \
 Felix Creutzig, Amir Globerson, Naftali Tishby\
 *Physical Review, 2009*
@@ -166,6 +197,11 @@ Saeid Asgari Taghanaki, Mohammad Havaei, Tess Berthier, Francis Dutil, Lisa Di J
 
 <br>
 
+**Past–future information bottleneck for sampling molecular reaction coordinate simultaneously with thermodynamics and kinetics** [[link](https://www.nature.com/articles/s41467-019-11405-4)] \
+Yihang Wang, João Marcelo Lamim Ribeiro, Pratyush Tiwary\
+*Nature Communications, 2019*
+<br>
+
 **Kernelized information bottleneck leads to biologically plausible 3-factor Hebbian learning in deep networks** [[link](https://papers.nips.cc/paper/2020/hash/517f24c02e620d5a4dac1db388664a63-Abstract.html)] \
 Roman Pogodin, Peter Latham\
 *NeurIPS, 2020*
@@ -174,6 +210,16 @@ Roman Pogodin, Peter Latham\
 **Training Normalizing Flows with the Information Bottleneck for Competitive Generative Classification** [[link](https://papers.nips.cc/paper/2020/hash/593906af0d138e69f49d251d3e7cbed0-Abstract.html)] \
 Lynton Ardizzone, Radek Mackowiak, Carsten Rother, Ullrich Köthe\
 *NeurIPS, 2020*
+<br>
+
+**Unsupervised Speech Decomposition via Triple Information Bottleneck** [[link](https://proceedings.mlr.press/v119/qian20a.html)] [[code](https://github.com/auspicious3000/SpeechSplit)] \
+Kaizhi Qian, Yang Zhang, Shiyu Chang, Mark Hasegawa-Johnson, David Cox\
+*ICML, 2020*
+<br>
+
+**Learning Efficient Multi-agent Communication: An Information Bottleneck Approach** [[link](https://proceedings.mlr.press/v119/wang20i.html)] \
+Rundong Wang, Xu He, Runsheng Yu, Wei Qiu, Bo An, Zinovi Rabinovich\
+*ICML, 2020*
 <br>
 
 **Inserting Information Bottlenecks for Attribution in Transformers** [[link](https://arxiv.org/abs/2012.13838v2)] \
@@ -208,7 +254,7 @@ Anirudh Goyal, Yoshua Bengio, Matthew Botvinick, Sergey Levine\
 
 
 
-## 5. Surveys and Other Information Theory Driven Work
+## 6. Other Information Theory Driven Work
 **f-GANs in an Information Geometric Nutshell** [[link](https://papers.nips.cc/paper/2017/hash/2f2b265625d76a6704b08093c652fd79-Abstract.html)] \
 Richard Nock, Zac Cranko, Aditya K. Menon, Lizhen Qu, Robert C. Williamson\
 *NeurIPS, 2017*
@@ -227,6 +273,18 @@ Linus Hamilton, Frederic Koehler, Ankur Moitra\
 **Information-theoretic analysis of generalization capability of learning algorithms** [[link](https://papers.nips.cc/paper/2017/hash/ad71c82b22f4f65b9398f76d8be4c615-Abstract.html)] \
 Aolin Xu, Maxim Raginsky\
 *NeurIPS, 2017*
+<br>
+
+**Learning Discrete Representations via Information Maximizing Self-Augmented Training** [[link](https://proceedings.mlr.press/v70/hu17b.html)] \
+Weihua Hu, Takeru Miyato, Seiya Tokui, Eiichi Matsumoto, Masashi Sugiyama\
+*ICML, 2017*
+<br>
+
+🐣 **Nonparanormal Information Estimation** [[link](https://proceedings.mlr.press/v70/singh17a.html)] \
+Shashank Singh, Barnabás Póczos\
+*ICML, 2017*
+> This paper shows how to robustly estimate mutual information using i.i.d. samples from unknown distribution.
+
 <br>
 
 **Entropy and mutual information in models of deep neural networks** [[link](https://papers.nips.cc/paper/2018/hash/6d0f846348a856321729a2f36734d1a7-Abstract.html)] \
@@ -254,9 +312,24 @@ Boyla Mainsah, Dmitry Kalika, Leslie Collins, Siyuan Liu, Chandra Throckmorton\
 *NeurIPS, 2018*
 <br>
 
-**InfoMax: Learning deep representations by mutual information estimation and maximization** [[link](https://openreview.net/forum?id=Bklr3j0cKX)][[code](https://github.com/rdevon/DIM)] \
-R Devon Hjelm, Alex Fedorov, Samuel Lavoie-Marchildon, Karan Grewal, Phil Bachman, Adam Trischler, Yoshua Bengio\
-*ICLR, 2019*
+**Information Theoretic Guarantees for Empirical Risk Minimization with Applications to Model Selection and Large-Scale Optimization** [[link](https://proceedings.mlr.press/v80/alabdulmohsin18a.html)] \
+Ibrahim Alabdulmohsin\
+*ICML, 2018*
+<br>
+
+**Mutual Information Neural Estimation** [[link](https://proceedings.mlr.press/v80/belghazi18a.html)] \
+Mohamed Ishmael Belghazi, Aristide Baratin, Sai Rajeshwar, Sherjil Ozair, Yoshua Bengio, Aaron Courville, Devon Hjelm\
+*ICML, 2018*
+<br>
+
+**Learning to Explain: An Information-Theoretic Perspective on Model Interpretation** [[link](https://proceedings.mlr.press/v80/chen18j.html)]\
+Jianbo Chen, Le Song, Martin Wainwright, Michael Jordan\
+*ICML, 2018*
+<br>
+
+**Fast Information-theoretic Bayesian Optimisation** [[link](https://proceedings.mlr.press/v80/ru18a.html)] \
+Binxin Ru, Michael A. Osborne, Mark Mcleod, Diego Granziol\
+*ICML, 2018*
 <br>
 
 
@@ -300,6 +373,11 @@ Seungki Min, Costis Maglaras, Ciamac C. Moallemi\
 *NeurIPS, 2019*
 <br>
 
+**InfoMax: Learning deep representations by mutual information estimation and maximization** [[link](https://openreview.net/forum?id=Bklr3j0cKX)][[code](https://github.com/rdevon/DIM)] \
+R Devon Hjelm, Alex Fedorov, Samuel Lavoie-Marchildon, Karan Grewal, Phil Bachman, Adam Trischler, Yoshua Bengio\
+*ICLR, 2019*
+<br>
+
 **Max-MIG: an Information Theoretic Approach for Joint Learning from Crowds** [[link](https://openreview.net/forum?id=BJg9DoR9t7)] \
 Peng Cao, Yilun Xu, Yuqing Kong, Yizhou Wang\
 *ICLR, 2019*
@@ -335,15 +413,36 @@ Luis A. Lastras-Montaño\
 *ICLR, 2019*
 <br>
 
+**New results on information theoretic clustering** [[link](https://proceedings.mlr.press/v97/cicalese19a.html)] [[code](https://github.com/lmurtinho/RatioGreedyClustering/tree/ICML_submission)] \
+Ferdinando Cicalese, Eduardo Laber, Lucas Murtinho\
+*ICML, 2019*
+<br>
+
+**Estimating Information Flow in Deep Neural Networks** [[link](https://proceedings.mlr.press/v97/goldfeld19a.html)] \
+Ziv Goldfeld, Ewout Van Den Berg, Kristjan Greenewald, Igor Melnyk, Nam Nguyen, Brian Kingsbury, Yury Polyanskiy\
+*ICML, 2019*
+<br>
+
+🐣 **The information-theoretic value of unlabeled data in semi-supervised learning** [[link](https://proceedings.mlr.press/v97/golovnev19a.html)] \
+Alexander Golovnev, David Pal, Balazs Szorenyi\
+*ICML, 2019*
+<br>
+
+**EMI: Exploration with Mutual Information** [[link](https://proceedings.mlr.press/v97/kim19a.html)] [[code](https://github.com/snu-mllab/EMI)] \
+Hyoungseok Kim, Jaekyeom Kim, Yeonwoo Jeong, Sergey Levine, Hyun Oh Song\
+*ICML, 2019*
+<br>
+
+🐣 **On Variational Bounds of Mutual Information** [[link](https://proceedings.mlr.press/v97/poole19a.html)] \
+Ben Poole, Sherjil Ozair, Aaron Van Den Oord, Alex Alemi, George Tucker\
+*ICML, 2019*
+<br>
+
 **Where is the Information in a Deep Neural Network?** [[link](https://arxiv.org/abs/1905.12213)] \
 Alessandro Achille, Giovanni Paolini, Stefano Soatto\
 *Preprint, 2020*
 <br>
 
-**On the Information Bottleneck Problems: Models, Connections, Applications and Information Theoretic Views** [[link](https://www.mdpi.com/1099-4300/22/2/151)] \
-Abdellatif Zaidi, Iñaki Estella-Aguerri, Shlomo Shamai\
-*Entropy, 2020*
-<br>
 
 **Information Maximization for Few-Shot Learning** [[link](https://papers.nips.cc/paper/2020/hash/196f5641aa9dc87067da4ff90fd81e7b-Abstract.html)] \
 Malik Boudiaf, Imtiaz Ziko, Jérôme Rony, Jose Dolz, Pablo Piantanida, Ismail Ben Ayed\
@@ -417,6 +516,41 @@ Philipp Becker, Oleg Arenz, Gerhard Neumann \
 *ICLR, 2020*
 <br>
 
+**CLUB: A Contrastive Log-ratio Upper Bound of Mutual Information** [[link](https://proceedings.mlr.press/v119/cheng20b.html)] [[code](https://github.com/Linear95/CLUB)] \
+Pengyu Cheng, Weituo Hao, Shuyang Dai, Jiachang Liu, Zhe Gan, Lawrence Carin\
+*ICML, 2020*
+<br>
+
+**Information Particle Filter Tree: An Online Algorithm for POMDPs with Belief-Based Rewards on Continuous Domains** [[link](https://proceedings.mlr.press/v119/fischer20a.html)] [[code](https://github.com/johannes-fischer/icml2020_ipft)] \
+Johannes Fischer, Ömer Sahin Tas\
+*ICML, 2020*
+<br>
+
+**Bayesian Experimental Design for Implicit Models by Mutual Information Neural Estimation** [[link](https://proceedings.mlr.press/v119/kleinegesse20a.html)] [[code](https://github.com/stevenkleinegesse/minebed)] \
+Steven Kleinegesse, Michael U. Gutmann\
+*ICML, 2020*
+<br>
+
+**FR-Train: A Mutual Information-Based Approach to Fair and Robust Training** [[link](https://proceedings.mlr.press/v119/roh20a.html)] [[code](https://github.com/yuji-roh/fr-train)] \
+Yuji Roh, Kangwook Lee, Steven Whang, Changho Suh\
+*ICML, 2020*
+<br>
+
+**Learning Discrete Structured Representations by Adversarially Maximizing Mutual Information** [[link](https://proceedings.mlr.press/v119/stratos20a.html)] [[code](https://github.com/karlstratos/ammi)] \
+Karl Stratos, Sam Wiseman\
+*ICML, 2020*
+<br>
+
+**Learning Structured Latent Factors from Dependent Data:A Generative Model Framework from Information-Theoretic Perspective** [[link](https://proceedings.mlr.press/v119/zhang20m.html)] \
+Ruixiang Zhang, Masanori Koyama, Katsuhiko Ishiguro\
+*ICML, 2020*
+<br>
+
+**Learning Adversarially Robust Representations via Worst-Case Mutual Information Maximization** [[link](https://proceedings.mlr.press/v119/zhu20e.html)] [[code](https://github.com/schzhu/learning-adversarially-robust-representations)] \
+Sicheng Zhu, Xiao Zhang, David Evans\
+*ICML, 2020*
+<br>
+
 **Usable Information and Evolution of Optimal Representations During Training** [[link](https://openreview.net/forum?id=p8agn6bmTbr)] \
  Michael Kleinman, Alessandro Achille, Daksh Idnani, Jonathan Kao\
 *ICLR, 2021*
@@ -432,7 +566,6 @@ Philipp Becker, Oleg Arenz, Gerhard Neumann \
 *ICLR, 2021*
 <br>
 
-
 **Graph Information Bottleneck for Subgraph Recognition** [[link](https://openreview.net/forum?id=bM4Iqfg8M2k)] \
 Junchi Yu, Tingyang Xu, Yu Rong, Yatao Bian, Junzhou Huang, Ran He\
 *ICLR, 2021*
@@ -441,6 +574,16 @@ Junchi Yu, Tingyang Xu, Yu Rong, Yatao Bian, Junzhou Huang, Ran He\
 **InfoBERT: Improving Robustness of Language Models from An Information Theoretic Perspective** [[link](https://openreview.net/forum?id=hpH98mK5Puk)]\
  Boxin Wang, Shuohang Wang, Yu Cheng, Zhe Gan, Ruoxi Jia, Bo Li, Jingjing Liu\
 *ICLR, 2021*
+<br>
+
+**Bayesian Algorithm Execution: Estimating Computable Properties of Black-box Functions Using Mutual Information** [[link](https://icml.cc/Conferences/2021/Schedule?showEvent=10675)] [[slides](https://icml.cc/media/icml-2021/Slides/10675.pdf)] \
+Willie Neiswanger, Ke Alexander Wang, Stefano Ermon\
+*ICML, 2021*
+<br>
+
+**Decomposed Mutual Information Estimation for Contrastive Representation Learning** [[link](http://proceedings.mlr.press/v139/sordoni21a/sordoni21a.pdf)] \
+Alessandro Sordoni, Nouha Dziri, Hannes Schulz, Geoff Gordon, Philip Bachman, Remi Tachet Des Combes\
+*ICML, 2021*
 <br>
 
 **ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction** [[link](https://arxiv.org/abs/2105.10446)] [[code](https://github.com/ryanchankh/ReduNet)] \
@@ -487,19 +630,26 @@ Tailin Wu\
 
 
 
-<!-- **** [[link]()] \
+
+
+
+
+
+
+
+
+
+
+
+
+**** [[link]()] \
 \
-*ICLR, 2018*
+*ICML, 2017*
 <br>
 
 **** [[link]()] \
 \
-*ICLR, 2018*
-<br>
-
-**** [[link]()] \
-\
-*ICLR, 2018*
+*ICML, 2017*
 <br>
 
 
@@ -507,15 +657,6 @@ Tailin Wu\
 
 
 
-**** [[link]()] \
-\
-*ICLR, 2018*
-<br>
-
-**** [[link]()] \
-\
-*ICLR, 2018*
-<br> -->
 
 
 
@@ -535,14 +676,6 @@ Tailin Wu\
 
 
 
-
-
-
-<!--
-**** [[link]()] \
-\
-**
-<br> -->
 
 <!--
 
