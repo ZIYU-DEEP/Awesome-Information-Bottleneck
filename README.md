@@ -40,7 +40,7 @@ Alexander A. Alemi, Ian Fischer, Joshua V. Dillon, Kevin Murphy\
 <br>
 
 ## 2. Theories
-**Caveats for information bottleneck in deterministic scenarios** [[link](https://arxiv.org/abs/1808.07593)] \
+**Caveats for information bottleneck in deterministic scenarios** [[link](https://arxiv.org/abs/1808.07593)] [[ICLR version]](https://openreview.net/forum?id=rke4HiAcY7) \
 Artemy Kolchinsky, Brendan D. Tracey, Steven Van Kuyk\
 *UAI, 2018*
 <br>
@@ -191,6 +191,18 @@ Dedi Wang, Pratyush Tiwary\
 *Preprint, 2021*
 <br>
 
+**The Variational Bandwidth Bottleneck: Stochastic Evaluation on an Information Budget** [[link](https://openreview.net/forum?id=Hye1kTVFDS)] \
+Anirudh Goyal, Yoshua Bengio, Matthew Botvinick, Sergey Levine\
+*ICLR, 2020*
+<br>
+
+**Variational Information Bottleneck for Effective Low-Resource Fine-Tuning** [[link](https://openreview.net/forum?id=kvhzKz-_DMF)] \
+ Rabeeh Karimi mahabadi, Yonatan Belinkov, James Henderson \
+*ICLR, 2021*
+<br>
+
+
+
 ## 5. Surveys and Other Information Theory Driven Work
 **f-GANs in an Information Geometric Nutshell** [[link](https://papers.nips.cc/paper/2017/hash/2f2b265625d76a6704b08093c652fd79-Abstract.html)] \
 Richard Nock, Zac Cranko, Aditya K. Menon, Lizhen Qu, Robert C. Williamson\
@@ -283,6 +295,41 @@ Seungki Min, Costis Maglaras, Ciamac C. Moallemi\
 *NeurIPS, 2019*
 <br>
 
+**Max-MIG: an Information Theoretic Approach for Joint Learning from Crowds** [[link](https://openreview.net/forum?id=BJg9DoR9t7)] \
+Peng Cao, Yilun Xu, Yuqing Kong, Yizhou Wang\
+*ICLR, 2019*
+<br>
+
+**Information-Directed Exploration for Deep Reinforcement Learning** [[link](https://openreview.net/forum?id=Byx83s09Km)] \
+Nikolay Nikolov, Johannes Kirschner, Felix Berkenkamp, Andreas Krause\
+*ICLR, 2019*
+<br>
+
+**Soft Q-Learning with Mutual-Information Regularization** [[link](https://openreview.net/forum?id=HyEtjoCqFX)] \
+Jordi Grau-Moya, Felix Leibfried, Peter Vrancx\
+*ICLR, 2019*
+<br>
+
+**Hierarchical Reinforcement Learning via Advantage-Weighted Information Maximization** [[link](https://openreview.net/forum?id=Hyl_vjC5KQ)] \
+Takayuki Osa, Voot Tangkaratt, Masashi Sugiyama\
+*ICLR, 2019*
+<br>
+
+**Information Asymmetry in KL-regularized RL** [[link](https://openreview.net/forum?id=S1lqMn05Ym)] \
+Alexandre Galashov, Siddhant M. Jayakumar, Leonard Hasenclever, Dhruva Tirumala, Jonathan Schwarz, Guillaume Desjardins, Wojciech M. Czarnecki, Yee Whye Teh, Razvan Pascanu, Nicolas Heess\
+*ICLR, 2019*
+<br>
+
+**Adaptive Estimators Show Information Compression in Deep Neural Networks** [[link](https://openreview.net/forum?id=SkeZisA5t7)] \
+ Ivan Chelombiev, Conor Houghton, Cian O'Donnell\
+*ICLR, 2019*
+<br>
+
+**Information Theoretic lower bounds on negative log likelihood** [[link](https://openreview.net/forum?id=rkemqsC9Fm)] \
+Luis A. Lastras-Montaño\
+*ICLR, 2019*
+<br>
+
 **Where is the Information in a Deep Neural Network?** [[link](https://arxiv.org/abs/1905.12213)] \
 Alessandro Achille, Giovanni Paolini, Stefano Soatto\
 *Preprint, 2020*
@@ -335,6 +382,62 @@ Ryo Karakida, Kazuki Osawa\
 *NeurIPS, 2020*
 <br>
 
+🐣 **On Mutual Information Maximization for Representation Learning** [[link](https://openreview.net/forum?id=rkxoh24FPH)] \
+Michael Tschannen, Josip Djolonga, Paul K. Rubenstein, Sylvain Gelly, Mario Lucic\
+*ICLR, 2020*
+<br>
+
+🐣 **Understanding the Limitations of Variational Mutual Information Estimators** [[link](https://openreview.net/forum?id=B1x62TNtDS)] \
+Jiaming Song, Stefano Ermon\
+*ICLR, 2020*
+<br>
+
+**Expected Information Maximization: Using the I-Projection for Mixture Density Estimation** [[link](https://openreview.net/forum?id=ByglLlHFDS)] \
+Philipp Becker, Oleg Arenz, Gerhard Neumann \
+*ICLR, 2020*
+<br>
+
+**Mutual Information Gradient Estimation for Representation Learning** [[link](https://openreview.net/forum?id=ByxaUgrFvH)] \
+ Liangjian Wen, Yiji Zhou, Lirong He, Mingyuan Zhou, Zenglin Xu\
+*ICLR, 2020*
+<br>
+
+**InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization** [[link](https://openreview.net/forum?id=r1lfF2NYvH)] \
+ Fan-Yun Sun, Jordan Hoffman, Vikas Verma, Jian Tang\
+*ICLR, 2020*
+<br>
+
+**A Mutual Information Maximization Perspective of Language Representation Learning** [[link](https://openreview.net/forum?id=Syx79eBKwr)] \
+ Lingpeng Kong, Cyprien de Masson d'Autume, Lei Yu, Wang Ling, Zihang Dai, Dani Yogatama\
+*ICLR, 2020*
+<br>
+
+**Usable Information and Evolution of Optimal Representations During Training** [[link](https://openreview.net/forum?id=p8agn6bmTbr)] \
+ Michael Kleinman, Alessandro Achille, Daksh Idnani, Jonathan Kao\
+*ICLR, 2021*
+<br>
+
+**Domain-Robust Visual Imitation Learning with Mutual Information Constraints** [[link](https://openreview.net/forum?id=QubpWYfdNry)] \
+ Edoardo Cetin, Oya Celiktutan\
+*ICLR, 2021*
+<br>
+
+**Multi-Class Uncertainty Calibration via Mutual Information Maximization-based Binning** [[link](https://openreview.net/forum?id=AICNpd8ke-m)] \
+ Kanil Patel, William H. Beluch, Bin Yang, Michael Pfeiffer, Dan Zhang\
+*ICLR, 2021*
+<br>
+
+
+**Graph Information Bottleneck for Subgraph Recognition** [[link](https://openreview.net/forum?id=bM4Iqfg8M2k)] \
+Junchi Yu, Tingyang Xu, Yu Rong, Yatao Bian, Junzhou Huang, Ran He\
+*ICLR, 2021*
+<br>
+
+**InfoBERT: Improving Robustness of Language Models from An Information Theoretic Perspective** [[link](https://openreview.net/forum?id=hpH98mK5Puk)]\
+ Boxin Wang, Shuohang Wang, Yu Cheng, Zhe Gan, Ruoxi Jia, Bo Li, Jingjing Liu\
+*ICLR, 2021*
+<br>
+
 **ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction** [[link](https://arxiv.org/abs/2105.10446)] [[code](https://github.com/ryanchankh/ReduNet)] \
 Kwan Ho Ryan Chan, Yaodong Yu, Chong You, Haozhi Qi, John Wright, Yi Ma\
 *Preprint, 2021*
@@ -373,16 +476,41 @@ Tailin Wu\
 
 
 
+
+
+
+
+
+
 <!-- **** [[link]()] \
 \
-*NeurIPS, 2017*
+*ICLR, 2018*
 <br>
 
 **** [[link]()] \
 \
-*NeurIPS, 2017*
-<br> -->
+*ICLR, 2018*
+<br>
 
+**** [[link]()] \
+\
+*ICLR, 2018*
+<br>
+
+
+
+
+
+
+**** [[link]()] \
+\
+*ICLR, 2018*
+<br>
+
+**** [[link]()] \
+\
+*ICLR, 2018*
+<br> -->
 
 
 
