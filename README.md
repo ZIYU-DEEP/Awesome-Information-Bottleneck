@@ -9,7 +9,7 @@
 ![illustration](./illustration.png)
 **To learn, you must forget**. This may probably be one of the most intuitive lessons we have from Naftali Tishby's Information Bottleneck (IB) methods, which grew out of the fundamental tradeoff (rate *v.s.* distortion) from Claude Shannon's information theory.
 
-It has been four years since the dazzling talk on [Opening the Black Box of Deep Neural Networks](https://www.youtube.com/watch?v=FSfN2K3tnJU). It is time for us to take a look back, to celebrate what has been established, and to prepare for a future.
+It has been four years since the dazzling talk on [Opening the Black Box of Deep Neural Networks](https://www.youtube.com/watch?v=FSfN2K3tnJU), and more than twenty years since the [first paper](https://arxiv.org/abs/physics/0004057)) on Information Bottleneck. It is time for us to take a look back, to celebrate what has been established, and to prepare for a future.
 
 This repository is organized as follows:
 - [Classics](#1-classics)
@@ -25,15 +25,68 @@ This repository is last updated on September 2021.
 
 
 ## 1. Classics
-**The information bottleneck method** [[link](https://arxiv.org/abs/physics/0004057)] \
+**Agglomerative Information Bottleneck** [[link](https://papers.nips.cc/paper/1999/file/be3e9d3f7d70537357c67bb3f4086846-Paper.pdf)] \
+Noam Slonim, Naftali Tishby\
+*NIPS, 1999*
+<br>
+
+**The Information Bottleneck Method** [[link](https://arxiv.org/abs/physics/0004057)] \
 Naftali Tishby, Fernando C. Pereira, William Bialek\
 *Preprint, 2000*
+<br>
+
+**Predictability, complexity and learning** [[link](https://pubmed.ncbi.nlm.nih.gov/11674845/)] \
+William Bialek, Ilya Nemenman, Naftali Tishby\
+*Neural Computation, 2001*
+<br>
+
+**Sufficient Dimensionality Reduction: A novel analysis principle** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/sdr_ICML.pdf)] \
+Amir Globerson, Naftali Tishby\
+*ICML, 2002*
 <br>
 
 **The information bottleneck: Theory and applications** [[link](http://www.yaroslavvb.com/papers/slonim-information.pdf)] \
 Noam Slonim\
 *PhD Thesis, 2002*
 <br>
+
+**An Information Theoretic Tradeoff between Complexity and Accuarcy** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/ib_theory.pdf)] \
+Ran Gilad-Bachrach, Amir Navot, Naftali Tishby\
+*COLT, 2003*
+<br>
+
+**Information Bottleneck for Gaussian Variables** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/GIB_JMLR2004.pdf)] \
+Gal Chechik, Amir Globerson, Naftali Tishby, Yair Weiss\
+*NIPS, 2003*
+<br>
+
+**Information and Fitness** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/info+fitness.pdf)] \
+Samuel F. Taylor, Naftali Tishby and William Bialek\
+*Preprint, 2007*
+<br>
+
+**Efficient representation as a design principle for neural coding and computation** [[link](https://arxiv.org/abs/0712.4381)] \
+William Bialek, Rob R. de Ruyter van Steveninck, and Naftali Tishby\
+*Preprint, 2007*
+<br>
+
+
+**The Information Bottleneck Revisited or How to Choose a Good Distortion Measure** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/flaske2.pdf)] \
+Peter Harremoes and Naftali Tishby\
+*ISIT, 2007*
+<br>
+
+**Learning and Generalization with the Information Bottleneck** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/ibgen_full.pdf)] \
+Ohad Shamir, Sivan Sabato, Naftali Tishby\
+*Journal of Theoretical Computer Science, 2009*
+<br>
+
+**Information-Theoretic Bounded Rationality** [[link](https://arxiv.org/abs/1512.06789)] \
+Pedro A. Ortega, Daniel A. Braun, Justin Dyer, Kee-Eung Kim, Naftali Tishby\
+*Preprint, 2015*
+<br>
+
+
 
 **Opening the Black Box of Deep Neural Networks via Information** [[link](https://arxiv.org/abs/1703.00810)] \
 Ravid Shwartz-Ziv, Naftali Tishby\
@@ -74,6 +127,11 @@ Mohammad Ali Alomrani\
 
 
 ## 3. Theories
+**Gaussian Lower Bound for the Information Bottleneck Limit** [[link](https://www.jmlr.org/papers/volume18/17-398/17-398.pdf)] \
+Amichai Painsky, Naftali Tishby\
+*JMLR, 2017*
+<br>
+
 **Caveats for information bottleneck in deterministic scenarios** [[link](https://arxiv.org/abs/1808.07593)] [[ICLR version]](https://openreview.net/forum?id=rke4HiAcY7) \
 Artemy Kolchinsky, Brendan D. Tracey, Steven Van Kuyk\
 *UAI, 2018*
@@ -175,6 +233,11 @@ Dilip Arumugam, Benjamin Van Roy\
 <br>
 
 ## 5. Applications
+**Analyzing neural codes using the information bottleneck method** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/nips01_sub.pdf)] \
+Elad Schneidman, Noam Slonim, Naftali Tishby, Rob R. deRuyter van Steveninck, William Bialek\
+*NIPS, 2001*
+<br>
+
 **Past-future information bottleneck in dynamical systems** [[link](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.79.041925)] \
 Felix Creutzig, Amir Globerson, Naftali Tishby\
 *Physical Review, 2009*
@@ -642,15 +705,46 @@ Tailin Wu\
 
 
 
-**** [[link]()] \
+
+
+
+
+<!-- **** [[link]()] \
 \
-*ICML, 2017*
+**
 <br>
 
 **** [[link]()] \
 \
-*ICML, 2017*
+**
 <br>
+
+**** [[link]()] \
+\
+**
+<br>
+
+**** [[link]()] \
+\
+**
+<br>
+
+**** [[link]()] \
+\
+**
+<br>
+
+**** [[link]()] \
+\
+**
+<br>
+
+**** [[link]()] \
+\
+**
+<br> -->
+
+
 
 
 
