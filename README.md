@@ -7,7 +7,7 @@
 
 ## 0. Introduction
 ![illustration](./illustration.png)
-**To learn, you must forget**. This may probably be one of the most intuitive lessons we have from Naftali Tishby's Information Bottleneck (IB) methods, which grew out of the fundamental tradeoff (rate *v.s.* distortion) from Claude Shannon's information theory.
+**To learn, you must forget**. This may probably be one of the most intuitive lessons we have from Naftali Tishby's Information Bottleneck (IB) methods, which grew out of the fundamental tradeoff (rate *v.s.* distortion) from Claude Shannon's information theory, and later creatively explained the learning behaviors of deep neural networks by the fitting & compression framework.
 
 It has been four years since the dazzling talk on [Opening the Black Box of Deep Neural Networks](https://www.youtube.com/watch?v=FSfN2K3tnJU), and more than twenty years since the [first paper](https://arxiv.org/abs/physics/0004057) on the Information Bottleneck method. It is time for us to take a look back, to celebrate what has been established, and to prepare for a future.
 
@@ -17,11 +17,13 @@ This repository is organized as follows:
 - [Theories](#3-theories)
 - [Models](#4-models)
 - [Applications](#5-applications)
-- [Other Information Theory Driven Work](#6-surveys-and-other-information-theory-driven-work) (verbose)
+- [Other Information Theory Driven Work](#6-other-information-theory-driven-work) (verbose)
 
 All papers are selected and sorted by topic/conference/year/importance. Please send a pull request if you would like to add any paper.
 
-This repository is last updated on September 2021.
+I also made [slides on theory, applications and controversy](https://github.com/ZIYU-DEEP/Awesome-Information-Bottleneck/blob/main/IB-Intro-Ye.pdf) for the initial Information Bottleneck principle in deep learning (*p.s.*, some controversy has been addressed by recent publications, *e.g.*, [Lorenzen et al., 2021](http://arxiv.org/abs/2106.12912v1)).
+
+*This repository is last updated on September 2021.*
 
 
 ## 1. Classics
