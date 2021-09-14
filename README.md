@@ -14,10 +14,10 @@ It has been four years since the dazzling talk on [Opening the Black Box of Deep
 This repository is organized as follows:
 - [Classics](#1-classics)
 - [Reviews](#2-reviews)
-- [Theories](#2-theories)
-- [Models](#3-models)
-- [Applications](#4-applications)
-- [Other Information Theory Driven Work](#5-surveys-and-other-information-theory-driven-work) (verbose)
+- [Theories](#3-theories)
+- [Models](#4-models)
+- [Applications](#5-applications)
+- [Other Information Theory Driven Work](#6-surveys-and-other-information-theory-driven-work) (verbose)
 
 All papers are selected and sorted by topic/conference/year/importance. Please send a pull request if you would like to add any paper.
 
