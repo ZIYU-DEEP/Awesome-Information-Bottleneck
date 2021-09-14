@@ -1,4 +1,4 @@
-# Awesome Information Bottleneck [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+# Awesome Information Bottleneck Paper List [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 *In memory of Professor Naftali Tishby.*
 <br>
@@ -93,10 +93,6 @@ Ravid Shwartz-Ziv, Naftali Tishby\
 *ICRI, 2017*
 <br>
 
-**Deep Variational Information Bottleneck** [[link](https://openreview.net/forum?id=HyxQzBceg)] \
-Alexander A. Alemi, Ian Fischer, Joshua V. Dillon, Kevin Murphy\
-*ICLR, 2017*
-<br>
 
 ## 2. Reviews
 **Information Bottleneck and its Applications in Deep Learning** [[link](https://arxiv.org/abs/1904.03743)] \
@@ -157,10 +153,33 @@ Tailin Wu, Ian Fischer\
 *ICLR, 2020*
 <br>
 
+**Bottleneck Problems: Information and Estimation-Theoretic View** [[link](http://arxiv.org/abs/2011.06208v1)] \
+Shahab Asoodeh, Flavio Calmon\
+*Preprint, 2020*
+<br>
+
+🐤 **Information Bottleneck: Exact Analysis of (Quantized) Neural Networks** [[link](http://arxiv.org/abs/2106.12912v1)] \
+Stephan Sloth Lorenzen, Christian Igel, Mads Nielsen\
+*Preprint, 2021*
+> - This paper shows that **different ways of binning** when **computing the mutual information** leads to qualitatively different results.
+> - It then confirms then original IB paper's results of the **fitting & compression** phase using quantized nets with exact computation for mutual information.
+
+<br>
+
+**Perturbation Theory for the Information Bottleneck** [[link](http://arxiv.org/abs/2105.13977v1)] \
+Vudtiwat Ngampruetikorn, David J. Schwab\
+*Preprint, 2021*
+<br>
+
 
 
 ## 4. Models
-**The Deterministic Information Bottleneck** [[link]()] \
+**Deep Variational Information Bottleneck** [[link](https://openreview.net/forum?id=HyxQzBceg)] \
+Alexander A. Alemi, Ian Fischer, Joshua V. Dillon, Kevin Murphy\
+*ICLR, 2017*
+<br>
+
+**The Deterministic Information Bottleneck** [[link](https://direct.mit.edu/neco/article/29/6/1611/8273/The-Deterministic-Information-Bottleneck)] [[UAI Version](https://www.auai.org/uai2016/proceedings/papers/319.pdf)] \
 DJ Strouse, David J. Schwab\
 *Neural Computation, 2017*
 > This replaces the mutual information term with entropy in the original IB objective.
@@ -170,6 +189,11 @@ DJ Strouse, David J. Schwab\
 **Learning Sparse Latent Representations with the Deep Copula Information Bottleneck** [[link](https://openreview.net/forum?id=Hk0wHx-RW)] \
 Aleksander Wieczorek, Mario Wieser, Damian Murezzan, Volker Roth \
 *ICLR, 2018*
+<br>
+
+**Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck** [[link](https://papers.nips.cc/paper/2019/hash/e2ccf95a7f2e1878fcafc8376649b6e8-Abstract.html)] \
+Maximilian Igl, Kamil Ciosek, Yingzhen Li, Sebastian Tschiatschek, Cheng Zhang, Sam Devlin, Katja Hofmann\
+*NeurIPS, 2019*
 <br>
 
 **Information bottleneck through variational glasses** [[link](http://bayesiandeeplearning.org/2019/papers/75.pdf)]\
@@ -189,6 +213,13 @@ Artemy Kolchinsky, Brendan Tracey, David Wolpert\
 
 <br>
 
+**General Information Bottleneck Objectives and their Applications to Machine Learning** [[link](https://arxiv.org/pdf/1912.06248.pdf)] \
+Sayandev Mukherjee\
+*Preprint, 2019*
+> This paper synthesize IB and Predictive IB, and provides a new variational bound.
+
+<br>
+
 🐤 **Graph Information Bottleneck** [[link](https://arxiv.org/abs/2010.12811)] [[code](https://github.com/snap-stanford/GIB)] [[slides](https://docs.google.com/presentation/d/1yGs6kfaFHKlZdu0REuSpZTN4Pqt7b0bAnh2y8lvYm3A/edit)] \
 Tailin Wu, Hongyu Ren, Pan Li, Jure Leskovec,\
 *NeurIPS, 2020*
@@ -197,11 +228,6 @@ Tailin Wu, Hongyu Ren, Pan Li, Jure Leskovec,\
 🐤 **Learning Optimal Representations with the Decodable Information Bottleneck** [[link](https://papers.nips.cc/paper/2020/hash/d8ea5f53c1b1eb087ac2e356253395d8-Abstract.html)] \
 Yann Dubois, Douwe Kiela, David J. Schwab, Ramakrishna Vedantam\
 *NeurIPS, 2020*
-<br>
-
-**Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck** [[link](https://papers.nips.cc/paper/2019/hash/e2ccf95a7f2e1878fcafc8376649b6e8-Abstract.html)] \
-Maximilian Igl, Kamil Ciosek, Yingzhen Li, Sebastian Tschiatschek, Cheng Zhang, Sam Devlin, Katja Hofmann\
-*NeurIPS, 2019*
 <br>
 
 🐤 **Concept Bottleneck Models** [[link](https://arxiv.org/abs/2007.04612v3)] \
@@ -217,6 +243,16 @@ Masanori Yamada, Heecheol Kim, Kosuke Miyoshi, Tomoharu Iwata, Hiroshi Yamakawa\
 🐤 **IBA: Restricting the Flow: Information Bottlenecks for Attribution** [[link](https://openreview.net/forum?id=S1xWh1rYwB)] [[code](https://github.com/BioroboticsLab/IBA)] \
 Karl Schulz, Leon Sixt, Federico Tombari, Tim Landgraf\
 *ICLR, 2020*
+<br>
+
+**On the Difference between the Information Bottleneck and the Deep Information Bottleneck** [[link](https://www.mdpi.com/1099-4300/22/2/131)] \
+Aleksander Wieczorek, Volker Roth\
+*Entropy, 2020*
+<br>
+
+**The Convex Information Bottleneck Lagrangian** [[link](http://arxiv.org/abs/1911.11000v2)] \
+Borja Rodríguez Gálvez, Ragnar Thobaben, Mikael Skoglund\
+*Preprint, 2020*
 <br>
 
 **Disentangled Information Bottleneck** [[link](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjhjduUk_vyAhVZ6XMBHQlpBPoQFnoECAQQAQ&url=https%3A%2F%2Fojs.aaai.org%2Findex.php%2FAAAI%2Farticle%2Fview%2F17120%2F16927&usg=AOvVaw1yu4FBl7RBV1xGUgh21VmY)] [[code](https://github.com/PanZiqiAI/disentangled-information-bottleneck)] \
@@ -236,6 +272,17 @@ Insu Jeon, Wonkwang Lee, Myeongjang Pyeon, Gunhee Kim\
 Dilip Arumugam, Benjamin Van Roy\
 *ICML, 2021*
 <br>
+
+**Invariance Principle Meets Information Bottleneck for Out-of-Distribution Generalization** [[link](http://arxiv.org/abs/2106.06607v1)] \
+Kartik Ahuja, Ethan Caballero, Dinghuai Zhang, Yoshua Bengio, Ioannis Mitliagkas, Irina Rish\
+*Preprint, 2021*
+<br>
+
+**Multi-Task Variational Information Bottleneck** [[link](http://arxiv.org/abs/2007.00339v4)] \
+Weizhu Qian, Bowei Chen, Yichao Zhang, Guanghui Wen, Franck Gechter\
+*Preprint, 2021*
+<br>
+
 
 ## 5. Applications
 🐤 **Analyzing neural codes using the information bottleneck method** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/nips01_sub.pdf)] \
@@ -295,6 +342,36 @@ Zhiying Jiang, Raphael Tang, Ji Xin, Jimmy Lin\
 *EMNLP, 2020*
 <br>
 
+**Information Bottleneck for Estimating Treatment Effects with Systematically Missing Covariates** [[link](https://www.mdpi.com/1099-4300/22/4/389)] \
+Sonali Parbhoo, Mario Wieser, Aleksander Wieczorek, and Volker Roth\
+*Entropy, 2020*
+<br>
+
+**Variational Information Bottleneck for Unsupervised Clustering: Deep Gaussian Mixture Embedding** [[link](http://arxiv.org/abs/1905.11741v3)] \
+Yigit Ugur, George Arvanitakis, Abdellatif Zaidi\
+*Entropy, 2020*
+<br>
+
+**Learning to Learn with Variational Information Bottleneck for Domain Generalization** [[link](http://arxiv.org/abs/2007.07645v1)] \
+Yingjun Du, Jun Xu, Huan Xiong, Qiang Qiu, Xiantong Zhen, Cees G. M. Snoek, Ling Shao\
+*ECCV, 2020*
+<br>
+
+**The information bottleneck and geometric clustering** [[link](http://arxiv.org/abs/1712.09657v2)] \
+DJ Strouse, David J Schwab\
+*Preprint, 2020*
+<br>
+
+**Causal learning with sufficient statistics: an information bottleneck approach** [[link](http://arxiv.org/abs/2010.05375v1)] \
+Daniel Chicharro, Michel Besserve, Stefano Panzeri\
+*Preprint, 2020*
+<br>
+
+**Learning Robust Representations via Multi-View Information Bottleneck** [[link](http://arxiv.org/abs/2002.07017v2)] \
+Marco Federici, Anjan Dutta, Patrick Forré, Nate Kushman, Zeynep Akata\
+*Preprint, 2020*
+<br>
+
 🐤 **Information Bottleneck Disentanglement for Identity Swapping** [[link](https://openaccess.thecvf.com/content/CVPR2021/html/Gao_Information_Bottleneck_Disentanglement_for_Identity_Swapping_CVPR_2021_paper.html)] \
 Gege Gao, Huaibo Huang, Chaoyou Fu, Zhaoyang Li, Ran He\
 *CVPR, 2021*
@@ -305,11 +382,6 @@ Ayush Srivastava, Oshin Dutta, Jigyasa Gupta, Sumeet Agarwal, Prathosh AP\
 *WACV, 2021*
 <br>
 
-🐤 **State Predictive Information Bottleneck** [[link](https://arxiv.org/abs/2011.10127)] [[code](https://github.com/tiwarylab/State-Predictive-Information-Bottleneck)] \
-Dedi Wang, Pratyush Tiwary\
-*Preprint, 2021*
-<br>
-
 **The Variational Bandwidth Bottleneck: Stochastic Evaluation on an Information Budget** [[link](https://openreview.net/forum?id=Hye1kTVFDS)] \
 Anirudh Goyal, Yoshua Bengio, Matthew Botvinick, Sergey Levine\
 *ICLR, 2020*
@@ -318,6 +390,59 @@ Anirudh Goyal, Yoshua Bengio, Matthew Botvinick, Sergey Levine\
 **Variational Information Bottleneck for Effective Low-Resource Fine-Tuning** [[link](https://openreview.net/forum?id=kvhzKz-_DMF)] \
  Rabeeh Karimi mahabadi, Yonatan Belinkov, James Henderson \
 *ICLR, 2021*
+<br>
+
+**A Variational Information Bottleneck Approach to Multi-Omics Data Integration** [[link](http://arxiv.org/abs/2102.03014v2)] \
+Changhee Lee, Mihaela van der Schaar\
+*AISTATS, 2021*
+<br>
+
+**Information Bottleneck Approach to Spatial Attention Learning** [[link](http://arxiv.org/abs/2108.03418v1)] \
+Qiuxia Lai, Yu Li, Ailing Zeng, Minhao Liu, Hanqiu Sun, Qiang Xu\
+*IJCAI, 2021*
+<br>
+
+**Unsupervised Hashing with Contrastive Information Bottleneck** [[link](http://arxiv.org/abs/2105.06138v2)] \
+Zexuan Qiu, Qinliang Su, Zijing Ou, Jianxing Yu, Changyou Chen\
+*IJCAI, 2021*
+<br>
+
+**Neuron Campaign for Initialization Guided by Information Bottleneck Theory** [[link](http://arxiv.org/abs/2108.06530v1)] \
+Haitao Mao, Xu Chen, Qiang Fu, Lun Du, Shi Han, Dongmei Zhang\
+*CIKM, 2021*
+<br>
+
+**A Closer Look at the Adversarial Robustness of Information Bottleneck Models** [[link](http://arxiv.org/abs/2107.05712v1)] \
+Iryna Korshunova, David Stutz, Alexander A. Alemi, Olivia Wiles, Sven Gowal\
+*ICML Workshop on A Blessing in Disguise, 2021*
+<br>
+
+**Information Bottleneck Attribution for Visual Explanations of Diagnosis and Prognosis** [[link](http://arxiv.org/abs/2104.02869v2)] \
+Ugur Demir, Ismail Irmakci, Elif Keles, Ahmet Topcu, Ziyue Xu, Concetto Spampinato, Sachin Jambawalikar, Evrim Turkbey, Baris Turkbey, Ulas Bagci\
+*Preprint, 2021*
+<br>
+
+**DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck** [[link](http://arxiv.org/abs/2102.13268v3)] [[code](https://github.com/JmfanBU/DRIBO)] \
+Jiameng Fan, Wenchao Li\
+*Preprint, 2021*
+> This model by MIB encourages the RL agent to encode only task-relevant information.
+
+<br>
+
+**State Predictive Information Bottleneck** [[link](https://arxiv.org/abs/2011.10127)] [[code](https://github.com/tiwarylab/State-Predictive-Information-Bottleneck)] \
+Dedi Wang, Pratyush Tiwary\
+*Preprint, 2021*
+<br>
+
+
+**Disentangled Variational Information Bottleneck for Multiview Representation Learning** [[link](http://arxiv.org/abs/2105.07599v1)] [[code](https://github.com/feng-bao-ucsf/DVIB)] \
+Feng Bao\
+*Preprint, 2021*
+<br>
+
+**Invariant Information Bottleneck for Domain Generalization** [[link](http://arxiv.org/abs/2106.06333v2)] \
+Bo Li, Yifei Shen, Yezhen Wang, Wenzhen Zhu, Colorado J. Reed, Jun Zhang, Dongsheng Li, Kurt Keutzer, Han Zhao\
+*Preprint, 2021*
 <br>
 
 
@@ -659,118 +784,17 @@ Kwan Ho Ryan Chan, Yaodong Yu, Chong You, Haozhi Qi, John Wright, Yi Ma\
 *Preprint, 2021*
 <br>
 
-**Intelligence, physics and information -- the tradeoff between accuracy and simplicity in machine learning** [[link](https://arxiv.org/abs/2001.03780)] \
+**Intelligence, physics and information – the tradeoff between accuracy and simplicity in machine learning** [[link](https://arxiv.org/abs/2001.03780)] \
 Tailin Wu\
 *PhD Thesis, 2021*
 <br>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- **** [[link]()] \
 \
-**
-<br>
-
-**** [[link]()] \
-\
-**
-<br>
-
-**** [[link]()] \
-\
-**
-<br>
-
-**** [[link]()] \
-\
-**
-<br>
-
-**** [[link]()] \
-\
-**
-<br>
-
-**** [[link]()] \
-\
-**
+*Preprint, 2021*
 <br> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!--
