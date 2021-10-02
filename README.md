@@ -374,6 +374,11 @@ Marco Federici, Anjan Dutta, Patrick Forré, Nate Kushman, Zeynep Akata\
 *Preprint, 2020*
 <br>
 
+**Dynamics Generalization via Information Bottleneck in Deep Reinforcement Learning** [[link](https://arxiv.org/abs/2008.00614)] [[report](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2020/EECS-2020-56.pdf)] \
+Yue Jin, Shuangqing Wei, Jian Yuan, Xudong Zhang\
+*Preprint, 2020*
+<br>
+
 🐤 **Information Bottleneck Disentanglement for Identity Swapping** [[link](https://openaccess.thecvf.com/content/CVPR2021/html/Gao_Information_Bottleneck_Disentanglement_for_Identity_Swapping_CVPR_2021_paper.html)] \
 Gege Gao, Huaibo Huang, Chaoyou Fu, Zhaoyang Li, Ran He\
 *CVPR, 2021*
@@ -444,6 +449,11 @@ Feng Bao\
 
 **Invariant Information Bottleneck for Domain Generalization** [[link](http://arxiv.org/abs/2106.06333v2)] \
 Bo Li, Yifei Shen, Yezhen Wang, Wenzhen Zhu, Colorado J. Reed, Jun Zhang, Dongsheng Li, Kurt Keutzer, Han Zhao\
+*Preprint, 2021*
+<br>
+
+**Information-Bottleneck-Based Behavior Representation Learning for Multi-agent Reinforcement learning** [[link](https://arxiv.org/abs/2109.14188)] \
+Yue Jin, Shuangqing Wei, Jian Yuan, Xudong Zhang\
 *Preprint, 2021*
 <br>
 
@@ -793,10 +803,14 @@ Tailin Wu\
 
 
 
+
+
 <!-- **** [[link]()] \
 \
 *Preprint, 2021*
 <br> -->
+
+
 
 
 <!--
