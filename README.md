@@ -130,6 +130,11 @@ Amichai Painsky, Naftali Tishby\
 *JMLR, 2017*
 <br>
 
+**Information-theoretic analysis of generalization capability of learning algorithms** [[link](https://arxiv.org/pdf/1705.07809.pdf)] \
+Aolin Xu, Maxim Raginsky\
+*NeurIPS, 2017*
+<br>
+
 **Caveats for information bottleneck in deterministic scenarios** [[link](https://arxiv.org/abs/1808.07593)] [[ICLR version](https://openreview.net/forum?id=rke4HiAcY7)]\
 Artemy Kolchinsky, Brendan D. Tracey, Steven Van Kuyk\
 *UAI, 2018*
@@ -172,6 +177,12 @@ Stephan Sloth Lorenzen, Christian Igel, Mads Nielsen\
 Vudtiwat Ngampruetikorn, David J. Schwab\
 *Preprint, 2021*
 <br>
+
+**PAC-Bayes Information Bottleneck** [[link](https://openreview.net/forum?id=iLHOIDsPv1P)] \
+Anonymous\
+*ICLR (under review), 2022*
+<br>
+> - This paper discusses using $I(w, S)$ instead to $I(T, X)$ as the information bottleneck.
 
 
 
