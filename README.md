@@ -1,6 +1,6 @@
 # Awesome Information Bottleneck Paper List [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-*In memory of Professor Naftali Tishby.*\
+*In memory of Professor Naftali Tishby.*
 *Last updated on Jan, 2022.*
 <br>
 
@@ -23,8 +23,6 @@ This repository is organized as follows:
 All papers are selected and sorted by topic/conference/year/importance. Please send a pull request if you would like to add any paper.
 
 I also made [slides on theory, applications and controversy](https://github.com/ZIYU-DEEP/Awesome-Information-Bottleneck/blob/main/IB-Intro-Ye.pdf) for the initial Information Bottleneck principle in deep learning (*p.s.*, some controversy has been addressed by recent publications, *e.g.*, [Lorenzen et al., 2021](http://arxiv.org/abs/2106.12912v1)).
-
-*This repository is last updated on September 2021.*
 
 
 ## 1. Classics
