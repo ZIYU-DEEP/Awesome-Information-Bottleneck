@@ -117,6 +117,11 @@ Bernhard C. Geiger, Gernot Kubin\
 *Entropy, 2020*
 <br>
 
+**On Information Plane Analyses of Neural Network Classifiers – A Review** [[link](https://arxiv.org/abs/2003.09671)] \
+Bernhard C. Geiger\
+*Preprint, 2021*
+> Table 1 (p.2) gives a nice summary on the effect of different architectures & MI estimators on the existence of the compression phases and causal links between compression and generalizations.
+
 **A Critical Review of Information Bottleneck Theory and its Applications to Deep Learning** [[link](https://arxiv.org/abs/2105.04405v1)] \
 Mohammad Ali Alomrani\
 *Preprint, 2021*
@@ -181,8 +186,8 @@ Vudtiwat Ngampruetikorn, David J. Schwab\
 **PAC-Bayes Information Bottleneck** [[link](https://openreview.net/forum?id=iLHOIDsPv1P)] \
 Anonymous\
 *ICLR (under review), 2022*
-<br>
 > - This paper discusses using $I(w, S)$ instead to $I(T, X)$ as the information bottleneck.
+> - However, ***activations*** should in effect play a crucial role in network's generalization, but they are not explicitly captured by $I(w, S)$.
 
 
 
