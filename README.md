@@ -1,7 +1,7 @@
 # Awesome Information Bottleneck Paper List [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 *In memory of Professor Naftali Tishby.*\
-*Last updated on Jan, 2022.*
+*Last updated on Feb, 2022.*
 <br>
 
 
@@ -413,6 +413,12 @@ Anirudh Goyal, Yoshua Bengio, Matthew Botvinick, Sergey Levine\
  Rabeeh Karimi mahabadi, Yonatan Belinkov, James Henderson \
 *ICLR, 2021*
 <br>
+
+**Dynamic Bottleneck for Robust Self-Supervised Exploration** [[link](https://proceedings.neurips.cc/paper/2021/hash/8d3369c4c086f236fabf61d614a32818-Abstract.html)] \
+Chenjia Bai, Lingxiao Wang, Lei Han, Animesh Garg, Jianye Hao, Peng Liu, Zhaoran Wang\
+*NeurIPS, 2021*
+<br>
+
 
 **A Variational Information Bottleneck Approach to Multi-Omics Data Integration** [[link](http://arxiv.org/abs/2102.03014v2)] \
 Changhee Lee, Mihaela van der Schaar\
