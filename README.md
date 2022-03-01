@@ -17,8 +17,9 @@ This repository is organized as follows:
 - [Reviews](#2-reviews)
 - [Theories](#3-theories)
 - [Models](#4-models)
-- [Applications](#5-applications)
-- [Other Information Theory Driven Work](#6-other-information-theory-driven-work) (verbose)
+- [Applications (General)](#5-applications-general)
+- [Applications (RL)](#6-applications-rl)
+- [Other Information Theory Driven Work](#7-other-information-theory-driven-work) (verbose)
 
 All papers are selected and sorted by topic/conference/year/importance. Please send a pull request if you would like to add any paper.
 
@@ -301,7 +302,7 @@ Weizhu Qian, Bowei Chen, Yichao Zhang, Guanghui Wen, Franck Gechter\
 <br>
 
 
-## 5. Applications
+## 5. Applications (General)
 🐤 **Analyzing neural codes using the information bottleneck method** [[link](https://www.cs.huji.ac.il/labs/learning/Papers/nips01_sub.pdf)] \
 Elad Schneidman, Noam Slonim, Naftali Tishby, Rob R. deRuyter van Steveninck, William Bialek\
 *NIPS, 2001*
@@ -312,10 +313,10 @@ Felix Creutzig, Amir Globerson, Naftali Tishby\
 *Physical Review, 2009*
 <br>
 
-🐤 **InfoBot: Transfer and Exploration via the Information Bottleneck** [[link](https://openreview.net/forum?id=rJg8yhAqKm)] \
+<!-- 🐤 **InfoBot: Transfer and Exploration via the Information Bottleneck** [[link](https://openreview.net/forum?id=rJg8yhAqKm)] \
 Anirudh Goyal, Riashat Islam, DJ Strouse, Zafarali Ahmed, Hugo Larochelle, Matthew Botvinick, Yoshua Bengio, Sergey Levine\
 *ICLR, 2018*
-<br>
+<br> -->
 
 **Compressing Neural Networks using the Variational Information Bottleneck** [[link](http://proceedings.mlr.press/v80/dai18d.html)] \
 Bin Dai, Chen Zhu, Baining Guo, David Wipf \
@@ -389,10 +390,10 @@ Marco Federici, Anjan Dutta, Patrick Forré, Nate Kushman, Zeynep Akata\
 *Preprint, 2020*
 <br>
 
-**Dynamics Generalization via Information Bottleneck in Deep Reinforcement Learning** [[link](https://arxiv.org/abs/2008.00614)] [[report](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2020/EECS-2020-56.pdf)] \
+<!-- **Dynamics Generalization via Information Bottleneck in Deep Reinforcement Learning** [[link](https://arxiv.org/abs/2008.00614)] [[report](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2020/EECS-2020-56.pdf)] \
 Yue Jin, Shuangqing Wei, Jian Yuan, Xudong Zhang\
 *Preprint, 2020*
-<br>
+<br> -->
 
 🐤 **Information Bottleneck Disentanglement for Identity Swapping** [[link](https://openaccess.thecvf.com/content/CVPR2021/html/Gao_Information_Bottleneck_Disentanglement_for_Identity_Swapping_CVPR_2021_paper.html)] \
 Gege Gao, Huaibo Huang, Chaoyou Fu, Zhaoyang Li, Ran He\
@@ -450,12 +451,12 @@ Ugur Demir, Ismail Irmakci, Elif Keles, Ahmet Topcu, Ziyue Xu, Concetto Spampina
 *Preprint, 2021*
 <br>
 
-**DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck** [[link](http://arxiv.org/abs/2102.13268v3)] [[code](https://github.com/JmfanBU/DRIBO)] \
+<!-- **DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck** [[link](http://arxiv.org/abs/2102.13268v3)] [[code](https://github.com/JmfanBU/DRIBO)] \
 Jiameng Fan, Wenchao Li\
 *Preprint, 2021*
-> This model by MIB encourages the RL agent to encode only task-relevant information.
-
-<br>
+> This model by MIB encourages the RL agent to encode only task-relevant information. -->
+<!--
+<br> -->
 
 **State Predictive Information Bottleneck** [[link](https://arxiv.org/abs/2011.10127)] [[code](https://github.com/tiwarylab/State-Predictive-Information-Bottleneck)] \
 Dedi Wang, Pratyush Tiwary\
@@ -478,9 +479,66 @@ Yue Jin, Shuangqing Wei, Jian Yuan, Xudong Zhang\
 *Preprint, 2021*
 <br>
 
+## 6. Applications (RL)
+**InfoBot: Transfer and Exploration via the Information Bottleneck** [[paper](https://openreview.net/forum?id=rJg8yhAqKm)] [[code](https://github.com/maximecb/gym-minigrid)]\
+Anirudh Goyal, Riashat Islam, DJ Strouse, Zafarali Ahmed, Hugo Larochelle, Matthew Botvinick, Yoshua Bengio, Sergey Levine\
+*ICLR, 2019*
+> The idea is simply to constrain the dependence on a certain goal, so that the agent can learn a *default behavior*.
+> - This done by introducing $- \beta I(A ; G \mid S)$ or equivalently $- \beta D_{\mathrm{KL}}\left[\pi_{\theta}(A \mid S, G) \mid \pi_{0}(A \mid S)\right]$ in the reward function, that is: $$
+\begin{aligned}
+J(\theta) & \equiv \mathbb{E}_{\pi_{\theta}}[r]-\beta I(A ; G \mid S) \\
+&=\mathbb{E}_{\pi_{\theta}}\left[r-\beta D_{\mathrm{KL}}\left[\pi_{\theta}(A \mid S, G) \mid \pi_{0}(A \mid S)\right]\right].
+\end{aligned}
+$$
+
+<br>
+
+**Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck** [[link](https://arxiv.org/abs/1910.12911)] [[code](https://github.com/microsoft/IBAC-SNI)] [[talk](https://www.youtube.com/watch?v=tWtM4Dq05ZA)]\
+Maximilian Igl, Kamil Ciosek, Yingzhen Li, Sebastian Tschiatschek, Cheng Zhang, Sam Devlin, Katja Hofmann\
+*NeurIPS, 2019*
+<br>
+
+**Learning Task-Driven Control Policies via Information Bottlenecks** [[link](https://arxiv.org/abs/2002.01428)] [[spotlight talk](https://www.youtube.com/watch?v=nzLyRHON24E)]\
+Vincent Pacelli, Anirudha Majumdar\
+*RSS, 2020*
+<br>
+
+🐤 **The Bottleneck Simulator: A Model-based Deep Reinforcement Learning Approach** [[journal '20](https://www.jair.org/index.php/jair/article/view/12463/26616)] [[arxiv '18](https://arxiv.org/abs/1807.04723)]
+Iulian Vlad Serban, Chinnadhurai Sankar, Michael Pieper, Joelle Pineau, Yoshua Bengio\
+*Journal of Artificial Intelligence Research (JAIR), 2020*
+<br>
+
+**Learning Robust Representations via Multi-View Information Bottleneck** [[link](https://openreview.net/forum?id=B1xwcyHFDr)] [[code](https://github.com/mfederici/Multi-View-Information-Bottleneck)] [[talk](https://iclr.cc/virtual_2020/poster_B1xwcyHFDr.html)]\
+Marco Federici, Anjan Dutta, Patrick Forré, Nate Kushman, Zeynep Akata\
+*ICLR, 2020*
+<br>
+
+**DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck** [[paper](https://openreview.net/forum?id=Py8WbvKH_wv)] [[code](https://github.com/JmfanBU/DRIBO)]\
+Jiameng Fan, Wenchao Li\
+*Rejected by ICLR, 2022*
+<br>
+
+**Learning Representations in Reinforcement Learning: an Information Bottleneck Approach** [[link](https://openreview.net/forum?id=Syl-xpNtwS)] [[code](https://github.com/AnonymousSubmittedCode/SVIB)]\
+Yingjun Pei, Xinwen Hou\
+*Rejected by ICLR, 2020*
+<br>
+
+**Dynamics Generalization via Information Bottleneck in Deep Reinforcement Learning** [[link](https://arxiv.org/abs/2008.00614)]\
+Xingyu Lu, Kimin Lee, Pieter Abbeel, Stas Tiomkin\
+*ArXiv, 2020*
+<br>
+
+**Dynamic Bottleneck for Robust Self-Supervised Exploration** [[paper](https://openreview.net/forum?id=-t6TeG3A6Do)] [[code](https://github.com/Baichenjia/DB)]\
+Chenjia Bai, Lingxiao Wang, Lei Han, Animesh Garg, Jianye HAO, Peng Liu, Zhaoran Wang\
+*NeurIPS, 2021*
+> - The high-level idea is to first generate a dynamics-relevant representation $Z_{t}$, then impose a bottleneck on dynamics, in order to through away the dynamics-irrelevant information.
+> - That is, $\min I([S_t, A_t]; Z_t)$, and $\max I(Z_t; S_{t+1})$.
+
+<br>
 
 
-## 6. Other Information Theory Driven Work
+
+## 7. Other Information Theory Driven Work
 **f-GANs in an Information Geometric Nutshell** [[link](https://papers.nips.cc/paper/2017/hash/2f2b265625d76a6704b08093c652fd79-Abstract.html)] \
 Richard Nock, Zac Cranko, Aditya K. Menon, Lizhen Qu, Robert C. Williamson\
 *NeurIPS, 2017*
