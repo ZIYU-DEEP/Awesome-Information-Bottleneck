@@ -484,12 +484,12 @@ Yue Jin, Shuangqing Wei, Jian Yuan, Xudong Zhang\
 Anirudh Goyal, Riashat Islam, DJ Strouse, Zafarali Ahmed, Hugo Larochelle, Matthew Botvinick, Yoshua Bengio, Sergey Levine\
 *ICLR, 2019*
 > The idea is simply to constrain the dependence on a certain goal, so that the agent can learn a *default behavior*.
-> - This done by introducing $- \beta I(A ; G \mid S)$ or equivalently $- \beta D_{\mathrm{KL}}\left[\pi_{\theta}(A \mid S, G) \mid \pi_{0}(A \mid S)\right]$ in the reward function, that is: $$
+<!-- > - This done by introducing $- \beta I(A ; G \mid S)$ or equivalently $- \beta D_{\mathrm{KL}}\left[\pi_{\theta}(A \mid S, G) \mid \pi_{0}(A \mid S)\right]$ in the reward function, that is: $$
 \begin{aligned}
 J(\theta) & \equiv \mathbb{E}_{\pi_{\theta}}[r]-\beta I(A ; G \mid S) \\
 &=\mathbb{E}_{\pi_{\theta}}\left[r-\beta D_{\mathrm{KL}}\left[\pi_{\theta}(A \mid S, G) \mid \pi_{0}(A \mid S)\right]\right].
 \end{aligned}
-$$
+$$ -->
 
 <br>
 
@@ -531,12 +531,9 @@ Xingyu Lu, Kimin Lee, Pieter Abbeel, Stas Tiomkin\
 **Dynamic Bottleneck for Robust Self-Supervised Exploration** [[paper](https://openreview.net/forum?id=-t6TeG3A6Do)] [[code](https://github.com/Baichenjia/DB)]\
 Chenjia Bai, Lingxiao Wang, Lei Han, Animesh Garg, Jianye HAO, Peng Liu, Zhaoran Wang\
 *NeurIPS, 2021*
-> - The high-level idea is to first generate a dynamics-relevant representation $Z_{t}$, then impose a bottleneck on dynamics, in order to through away the dynamics-irrelevant information.
-> - That is, $\min I([S_t, A_t]; Z_t)$, and $\max I(Z_t; S_{t+1})$.
-
+<!-- > - The high-level idea is to first generate a dynamics-relevant representation $Z_{t}$, then impose a bottleneck on dynamics, in order to through away the dynamics-irrelevant information.
+> - That is, $\min I([S_t, A_t]; Z_t)$, and $\max I(Z_t; S_{t+1})$. -->
 <br>
-
-
 
 ## 7. Other Information Theory Driven Work
 **f-GANs in an Information Geometric Nutshell** [[link](https://papers.nips.cc/paper/2017/hash/2f2b265625d76a6704b08093c652fd79-Abstract.html)] \
