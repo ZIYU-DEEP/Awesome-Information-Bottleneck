@@ -531,8 +531,6 @@ Xingyu Lu, Kimin Lee, Pieter Abbeel, Stas Tiomkin\
 **Dynamic Bottleneck for Robust Self-Supervised Exploration** [[paper](https://openreview.net/forum?id=-t6TeG3A6Do)] [[code](https://github.com/Baichenjia/DB)]\
 Chenjia Bai, Lingxiao Wang, Lei Han, Animesh Garg, Jianye HAO, Peng Liu, Zhaoran Wang\
 *NeurIPS, 2021*
-<!-- > - The high-level idea is to first generate a dynamics-relevant representation $Z_{t}$, then impose a bottleneck on dynamics, in order to through away the dynamics-irrelevant information.
-> - That is, $\min I([S_t, A_t]; Z_t)$, and $\max I(Z_t; S_{t+1})$. -->
 <br>
 
 ## 7. Other Information Theory Driven Work
