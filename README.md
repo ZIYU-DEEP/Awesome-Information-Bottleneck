@@ -1,6 +1,7 @@
 # Awesome Information Bottleneck Paper List [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-*In memory of Professor Naftali Tishby.*
+*In memory of Professor Naftali Tishby.*\
+*Last updated on Feb, 2022.*
 <br>
 
 
@@ -22,8 +23,6 @@ This repository is organized as follows:
 All papers are selected and sorted by topic/conference/year/importance. Please send a pull request if you would like to add any paper.
 
 I also made [slides on theory, applications and controversy](https://github.com/ZIYU-DEEP/Awesome-Information-Bottleneck/blob/main/IB-Intro-Ye.pdf) for the initial Information Bottleneck principle in deep learning (*p.s.*, some controversy has been addressed by recent publications, *e.g.*, [Lorenzen et al., 2021](http://arxiv.org/abs/2106.12912v1)).
-
-*This repository is last updated on September 2021.*
 
 
 ## 1. Classics
@@ -117,6 +116,11 @@ Bernhard C. Geiger, Gernot Kubin\
 *Entropy, 2020*
 <br>
 
+**On Information Plane Analyses of Neural Network Classifiers – A Review** [[link](https://arxiv.org/abs/2003.09671)] \
+Bernhard C. Geiger\
+*Preprint, 2021*
+> Table 1 (p.2) gives a nice summary on the effect of different architectures & MI estimators on the existence of the compression phases and causal links between compression and generalizations.
+
 **A Critical Review of Information Bottleneck Theory and its Applications to Deep Learning** [[link](https://arxiv.org/abs/2105.04405v1)] \
 Mohammad Ali Alomrani\
 *Preprint, 2021*
@@ -128,6 +132,11 @@ Mohammad Ali Alomrani\
 **Gaussian Lower Bound for the Information Bottleneck Limit** [[link](https://www.jmlr.org/papers/volume18/17-398/17-398.pdf)] \
 Amichai Painsky, Naftali Tishby\
 *JMLR, 2017*
+<br>
+
+**Information-theoretic analysis of generalization capability of learning algorithms** [[link](https://arxiv.org/pdf/1705.07809.pdf)] \
+Aolin Xu, Maxim Raginsky\
+*NeurIPS, 2017*
 <br>
 
 **Caveats for information bottleneck in deterministic scenarios** [[link](https://arxiv.org/abs/1808.07593)] [[ICLR version](https://openreview.net/forum?id=rke4HiAcY7)]\
@@ -172,6 +181,12 @@ Stephan Sloth Lorenzen, Christian Igel, Mads Nielsen\
 Vudtiwat Ngampruetikorn, David J. Schwab\
 *Preprint, 2021*
 <br>
+
+**PAC-Bayes Information Bottleneck** [[link](https://openreview.net/forum?id=iLHOIDsPv1P)] \
+Anonymous\
+*ICLR (under review), 2022*
+> - This paper discusses using $I(w, S)$ instead to $I(T, X)$ as the information bottleneck.
+> - However, ***activations*** should in effect play a crucial role in network's generalization, but they are not explicitly captured by $I(w, S)$.
 
 
 
@@ -398,6 +413,12 @@ Anirudh Goyal, Yoshua Bengio, Matthew Botvinick, Sergey Levine\
  Rabeeh Karimi mahabadi, Yonatan Belinkov, James Henderson \
 *ICLR, 2021*
 <br>
+
+**Dynamic Bottleneck for Robust Self-Supervised Exploration** [[link](https://proceedings.neurips.cc/paper/2021/hash/8d3369c4c086f236fabf61d614a32818-Abstract.html)] \
+Chenjia Bai, Lingxiao Wang, Lei Han, Animesh Garg, Jianye Hao, Peng Liu, Zhaoran Wang\
+*NeurIPS, 2021*
+<br>
+
 
 **A Variational Information Bottleneck Approach to Multi-Omics Data Integration** [[link](http://arxiv.org/abs/2102.03014v2)] \
 Changhee Lee, Mihaela van der Schaar\
