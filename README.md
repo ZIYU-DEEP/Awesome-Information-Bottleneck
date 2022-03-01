@@ -801,6 +801,11 @@ Tailin Wu\
 *PhD Thesis, 2021*
 <br>
 
+**The Information Geometry of Unsupervised Reinforcement Learning** [[link](https://arxiv.org/abs/2110.02719v1)] \
+Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine\
+*Preprint, 2021*
+<br>
+
 
 
 
