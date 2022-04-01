@@ -145,7 +145,19 @@ Artemy Kolchinsky, Brendan D. Tracey, Steven Van Kuyk\
 *UAI, 2018*
 <br>
 
-🐤 **On the Information Bottleneck Theory of Deep Learning** [[link](https://openreview.net/forum?id=ry_WPG-A-)] \
+
+🐤🔥 **Emergence of Invariance and Disentanglement in Deep Representations** [[link](https://arxiv.org/abs/1706.01350)] \
+Alessandro Achille, Stefano Soatto\
+*JMLR, 2018*
+> - This paper is a gem. On a high-level, it shows the relationship of generalization and **information bottleneck in weights** (IIW).
+>   - Be aware how this differs from Tishby's original definition on information bottleneck in representation).
+> - Specifically, if we approximate SGD by stochastic differential equations, we can see that SGD naturally leads to minimization in IIW.
+> - The authors argue that *an* optimal representation should have 4 properties: *sufficiency*, *minimality*, *invariance*, and *disentanglement*. Notably, the last two properties can naturally emerge with the minimization in mutual information between the datasets and network weights, or IIW.
+
+<br>
+
+
+**On the Information Bottleneck Theory of Deep Learning** [[link](https://openreview.net/forum?id=ry_WPG-A-)] \
 Andrew Michael Saxe, Yamini Bansal, Joel Dapello, Madhu Advani, Artemy Kolchinsky, Brendan Daniel Tracey, David Daniel Cox\
 *ICLR, 2018*
 <br>
@@ -170,7 +182,7 @@ Shahab Asoodeh, Flavio Calmon\
 *Preprint, 2020*
 <br>
 
-🐤 **Information Bottleneck: Exact Analysis of (Quantized) Neural Networks** [[link](http://arxiv.org/abs/2106.12912v1)] \
+**Information Bottleneck: Exact Analysis of (Quantized) Neural Networks** [[link](http://arxiv.org/abs/2106.12912v1)] \
 Stephan Sloth Lorenzen, Christian Igel, Mads Nielsen\
 *Preprint, 2021*
 > - This paper shows that **different ways of binning** when **computing the mutual information** leads to qualitatively different results.
@@ -184,8 +196,8 @@ Vudtiwat Ngampruetikorn, David J. Schwab\
 <br>
 
 **PAC-Bayes Information Bottleneck** [[link](https://openreview.net/forum?id=iLHOIDsPv1P)] \
-Anonymous\
-*ICLR (under review), 2022*
+Zifeng Wang, Shao-Lun Huang, Ercan Engin Kuruoglu, Jimeng Sun, Xi Chen, Yefeng Zheng\
+*ICLR, 2022*
 > - This paper discusses using $I(w, S)$ instead to $I(T, X)$ as the information bottleneck.
 > - However, ***activations*** should in effect play a crucial role in network's generalization, but they are not explicitly captured by $I(w, S)$.
 
