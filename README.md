@@ -1,7 +1,7 @@
 # Awesome Information Bottleneck Paper List [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 *In memory of Professor Naftali Tishby.*\
-*Last updated on April, 2022.*
+*Last updated on August, 2022.*
 <br>
 
 
@@ -19,7 +19,8 @@ This repository is organized as follows:
 - [Models](#4-models)
 - [Applications (General)](#5-applications-general)
 - [Applications (RL)](#6-applications-rl)
-- [Other Information Theory Driven Work](#7-other-information-theory-driven-work) (verbose)
+- [Methods for Mutual Information Estimation](#7-methods-for-mutual-information-estimation) (😣 MI is notoriously hard to estimate! )
+- [Other Information Theory Driven Work](#8-other-information-theory-driven-work) (verbose)
 
 All papers are selected and sorted by topic/conference/year/importance. Please send a pull request if you would like to add any paper.
 
@@ -467,6 +468,11 @@ Haitao Mao, Xu Chen, Qiang Fu, Lun Du, Shi Han, Dongmei Zhang\
 *CIKM, 2021*
 <br>
 
+**Information Theoretic Meta Learning with Gaussian Processes** [[link](https://arxiv.org/pdf/2009.03228.pdf)] \
+Michalis K. Titsias, Francisco J. R. Ruiz, Sotirios Nikoloutsopoulos, Alexandre Galashov\
+*UAI, 2021*
+<br>
+
 **A Closer Look at the Adversarial Robustness of Information Bottleneck Models** [[link](http://arxiv.org/abs/2107.05712v1)] \
 Iryna Korshunova, David Stutz, Alexander A. Alemi, Olivia Wiles, Sven Gowal\
 *ICML Workshop on A Blessing in Disguise, 2021*
@@ -504,6 +510,11 @@ Yue Jin, Shuangqing Wei, Jian Yuan, Xudong Zhang\
 *Preprint, 2021*
 <br>
 
+**Generalization in Quantum Machine Learning: a Quantum Information Perspective** [[link](http://arxiv.org/abs/2102.08991)] \
+Leonardo Banchi, Jason Pereira, Stefano Pirandola\
+*Preprint, 2021*
+<br>
+
 **Causal Effect Estimation using Variational Information Bottleneck** [[link](https://arxiv.org/abs/2110.13705)] \
 Zhenyu Lu, Yurong Cheng, Mingjun Zhong, George Stoian, Ye Yuan, Guoren Wang\
 *Preprint, 2021*
@@ -512,6 +523,11 @@ Zhenyu Lu, Yurong Cheng, Mingjun Zhong, George Stoian, Ye Yuan, Guoren Wang\
 **A Closer Look at the Adversarial Robustness of Information Bottleneck Models** [[link](https://arxiv.org/abs/2107.05712)] \
 Iryna Korshunova, David Stutz, Alexander A. Alemi, Olivia Wiles, Sven Gowal\
 *ICML Workshop on A Blessing in Disguise, 2021*
+<br>
+
+🐤 **Neuron Campaign for Initialization Guided by Information Bottleneck Theory** [[link](https://arxiv.org/abs/2108.06530)] \
+Haitao Mao, Xu Chen, Qiang Fu, Lun Du, Shi Han, Dongmei Zhang\
+*CIKM, 2021*
 <br>
 
 **Improving Subgraph Recognition with Variational Graph Information Bottleneck** [[link](https://arxiv.org/abs/2112.09899)] \
@@ -524,7 +540,17 @@ Qingyun Sun, Jianxin Li, Hao Peng, Jia Wu, Xingcheng Fu, Cheng Ji, Philip S. Yu\
 *AAAI, 2022*
 <br>
 
-🐤 **Sparsity-Inducing Categorical Prior Improves Robustness of the Information Bottleneck** [[link](https://arxiv.org/abs/2203.02592)] \
+**Renyi Fair Information Bottleneck for Image Classification** [[link](https://arxiv.org/abs/2203.04950)] \
+Adam Gronowski, William Paul, Fady Alajaji, Bahman Gharesifard, Philippe Burlina\
+*Preprint, 2022*
+<br>
+
+**The Distributed Information Bottleneck reveals the explanatory structure of complex systems** [[link](https://arxiv.org/abs/2204.07576)] \
+Kieran A. Murphy, Dani S. Bassett\
+*Preprint, 2021*
+<br>
+
+**Sparsity-Inducing Categorical Prior Improves Robustness of the Information Bottleneck** [[link](https://arxiv.org/abs/2203.02592)] \
 Anirban Samaddar, Sandeep Madireddy, Prasanna Balaprakash\
 *Preprint, 2022*
 <br>
@@ -534,26 +560,15 @@ Andrew K. Tan, Max Tegmark, Isaac L. Chuang\
 *Preprint, 2022*
 <br>
 
-**Renyi Fair Information Bottleneck for Image Classification** [[link](https://arxiv.org/abs/2203.04950)] \
-Adam Gronowski, William Paul, Fady Alajaji, Bahman Gharesifard, Philippe Burlina\
-*Preprint, 2021*
-<br>
-
-🐤 **Neuron Campaign for Initialization Guided by Information Bottleneck Theory** [[link](https://arxiv.org/abs/2108.06530)] \
-Haitao Mao, Xu Chen, Qiang Fu, Lun Du, Shi Han, Dongmei Zhang\
-*CIKM, 2021*
-<br>
-
 **Information-Theoretic Odometry Learning** [[link](https://arxiv.org/abs/2203.05724)] \
 Sen Zhang, Jing Zhang, Dacheng Tao\
 *Preprint, 2022*
 <br>
 
-**The Distributed Information Bottleneck reveals the explanatory structure of complex systems** [[link](https://arxiv.org/abs/2204.07576)] \
-Kieran A. Murphy, Dani S. Bassett\
-*Preprint, 2021*
+**Causal Effect Estimation using Variational Information Bottleneck** [[link](https://arxiv.org/abs/2110.13705)] \
+Zhenyu Lu, Yurong Cheng, Mingjun Zhong, George Stoian, Ye Yuan, Guoren Wang\
+*Preprint, 2022*
 <br>
-
 
 ## 6. Applications (RL)
 **InfoBot: Transfer and Exploration via the Information Bottleneck** [[paper](https://openreview.net/forum?id=rJg8yhAqKm)] [[code](https://github.com/maximecb/gym-minigrid)]\
@@ -591,7 +606,7 @@ Marco Federici, Anjan Dutta, Patrick Forré, Nate Kushman, Zeynep Akata\
 
 **DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck** [[paper](https://openreview.net/forum?id=Py8WbvKH_wv)] [[code](https://github.com/JmfanBU/DRIBO)]\
 Jiameng Fan, Wenchao Li\
-*Rejected by ICLR, 2022*
+*ICML, 2022*
 <br>
 
 **Learning Representations in Reinforcement Learning: an Information Bottleneck Approach** [[link](https://openreview.net/forum?id=Syl-xpNtwS)] [[code](https://github.com/AnonymousSubmittedCode/SVIB)]\
@@ -609,7 +624,89 @@ Chenjia Bai, Lingxiao Wang, Lei Han, Animesh Garg, Jianye HAO, Peng Liu, Zhaoran
 *NeurIPS, 2021*
 <br>
 
-## 7. Other Information Theory Driven Work
+## 7. Methods for Mutual Information Estimation
+> 😣😣😣 Mutual information is notoriously hard to estimate!
+
+**Estimating Mutual Information** [[link](https://arxiv.org/abs/cond-mat/0305641)] [[code](https://github.com/ravidziv/IDNNs)] \
+Alexander Kraskov, Harald Stoegbauer, Peter Grassberger\
+*Physical Review, 2004*
+<br>
+
+**Efficient Estimation of Mutual Information for Strongly Dependent Variables** [[link](https://arxiv.org/abs/1411.2003)] [[code](https://github.com/ravidziv/IDNNs)] \
+Shuyang Gao, Greg Ver Steeg, Aram Galstyan\
+*AISTATS, 2015*
+> - This shows that KNN-based estimators requires number of samples which scales *exponentially* with the true MI; that is, they become inaccurate as MI gets large.
+> - Thus, as the relationship become more dependent, the MI estimation becomes more inaccurate. Or in other words, KNN-based estimators are only good at *detecting independence of variables*.
+
+<br>
+
+🐤 **`MINE`: Mutual Information Neural Estimation** [[link](https://arxiv.org/abs/1801.04062)] [[code](https://github.com/gtegner/mine-pytorch)] \
+Mohamed Ishmael Belghazi, Aristide Baratin, Sai Rajeswar, Sherjil Ozair, Yoshua Bengio, Aaron Courville, R Devon Hjelm\
+*ICML, 2018*
+<br>
+
+**Evaluating Capability of Deep Neural Networks for Image Classification via Information Plane** [[link](https://openaccess.thecvf.com/content_ECCV_2018/html/Hao_Cheng_Evaluating_Capability_of_ECCV_2018_paper.html)] [[code](https://github.com/haochenglouis/ib_cnn)] \
+Hao Cheng, Dongze Lian, Shenghua Gao, Yanlin Geng\
+*ECCV, 2018*
+<br>
+
+🐤 **`InfoMax`: Learning Deep representations by Mutual Information Estimation and Maximization** [[link](https://arxiv.org/abs/1808.06670)] [[code](https://github.com/rdevon/DIM)] \
+R Devon Hjelm, Alex Fedorov, Samuel Lavoie-Marchildon, Karan Grewal, Phil Bachman, Adam Trischler, Yoshua Bengio\
+*ICLR, 2019 (Oral)*
+
+🐤 **On Variational Bounds of Mutual Information** [[link](https://arxiv.org/pdf/1905.06922.pdf)] [[PyTorch](https://github.com/arashabzd/milib)] \
+Ben Poole, Sherjil Ozair, Aaron van den Oord, Alexander A. Alemi, George Tucker\
+*ICML, 2019*
+<br>
+
+🐤 **Estimating Information Flow in Deep Neural Networks** [[link](https://arxiv.org/abs/1810.05728)] [[PyTorch](https://github.com/ankithmo/estimateMI)] \
+Ziv Goldfeld, Ewout van den Berg, Kristjan Greenewald, Igor Melnyk, Nam Nguyen, Brian Kingsbury, Yury Polyanskiy\
+*ICML, 2019*
+<br>
+
+**Neural Estimators for Conditional Mutual Information Using Nearest Neighbors Sampling** [[link](https://arxiv.org/abs/2006.07225v3)] [[code](https://github.com/smolavipour/CMI_Neural_Estimator)] \
+Sina Molavipour, Germán Bassi, Mikael Skoglund\
+*Preprint, 2020*
+<br>
+
+**`CCMI`: Classifier based Conditional Mutual Information Estimation** [[link](https://arxiv.org/abs/1906.01824)] [[code](https://github.com/sudiptodip15/CCMI)] \
+Sudipto Mukherjee, Himanshu Asnani, Sreeram Kannan\
+*UAI, 2020*
+
+**`MIGE`: Mutual Information Gradient Estimation for Representation Learning** [[link](https://arxiv.org/abs/2005.01123)] [[code](https://github.com/zhouyiji/MIGE)] \
+Liangjian Wen, Yiji Zhou, Lirong He, Mingyuan Zhou, Zenglin Xu\
+*ICLR, 2020*
+<br>
+
+🐤 **Information Bottleneck: Exact Analysis of (Quantized) Neural Networks** [[link](https://arxiv.org/abs/2106.12912v1)]\
+Stephan Sloth Lorenzen, Christian Igel, Mads Nielsen\
+*Preprint, 2021*
+> - This paper shows that different ways of binning when computing the mutual information leads to qualitatively different results.
+> - It then confirms then original IB paper's results of the fitting & compression phase using quantized nets with exact computation for mutual information.
+
+<br>
+
+🐤 **Tight Mutual Information Estimation With Contrastive Fenchel-Legendre Optimization** [[link](https://arxiv.org/abs/2107.01131)] [[code](https://github.com/qingguo666/FLO)]\
+Qing Guo, Junya Chen, Dong Wang, Yuewei Yang, Xinwei Deng, Lawrence Carin, Fan Li, Chenyang Tao\
+*Preprint, 2021*
+<br>
+
+**Entropy and mutual information in models of deep neural networks** [[link](https://arxiv.org/abs/1805.09785)] \
+Marylou Gabrié, Andre Manoel, Clément Luneau, Jean Barbier, Nicolas Macris, Florent Krzakala, Lenka Zdeborová\
+*NeurIPS, 2018*
+<br>
+
+🐤 **Understanding the Limitations of Variational Mutual Information Estimators** [[link](https://iclr.cc/virtual_2020/poster_B1x62TNtDS.html)] [[PyTorch](https://github.com/ermongroup/smile-mi-estimator)] \
+Jiaming Song, Stefano Ermon \
+*ICLR, 2020*
+> - This implementation includes `InfoNCE`, `NWJ`, `NWJ-JS`, `MINE`, and their own method `SMILE`.
+> - Basically, they show that the *variance* of traditional MI estimation can grow exponentially with true MI. In other words, just as KNN estimators, the more dependent (the higher MI), the less accurate.
+> - Also, those estimators ***does not satisfy*** some important self-consistency properties, such as *data processing inequality*.
+> - They propose SMILE which aims to reduce the variance issue.
+
+<br>
+
+## 8. Other Information Theory Driven Work
 **f-GANs in an Information Geometric Nutshell** [[link](https://papers.nips.cc/paper/2017/hash/2f2b265625d76a6704b08093c652fd79-Abstract.html)] \
 Richard Nock, Zac Cranko, Aditya K. Menon, Lizhen Qu, Robert C. Williamson\
 *NeurIPS, 2017*
