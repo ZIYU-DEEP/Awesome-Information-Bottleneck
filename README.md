@@ -206,7 +206,11 @@ Zifeng Wang, Shao-Lun Huang, Ercan Engin Kuruoglu, Jimeng Sun, Xi Chen, Yefeng Z
 > - This paper discusses using $I(w, S)$ instead to $I(T, X)$ as the information bottleneck.
 > - However, ***activations*** should in effect play a crucial role in network's generalization, but they are not explicitly captured by $I(w, S)$.
 
-
+**The HSIC Bottleneck: Deep Learning without Back-Propagation** [[link](https://arxiv.org/abs/1908.01580)] \
+Wan-Duo Kurt Ma, J.P. Lewis, W. Bastiaan Kleijn
+*AAAI, 2020*
+> - This paper uses Hilbert-Schmidt independence criterion (HSIC) as a surrogate to compute mutual information in IB objective.
+> - It shows an alternative way to learn a neural network without backpropagation, inspired by IB principle.
 
 ## 4. Models
 **Deep Variational Information Bottleneck** [[link](https://openreview.net/forum?id=HyxQzBceg)] \
