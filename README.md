@@ -292,7 +292,7 @@ Borja Rodríguez Gálvez, Ragnar Thobaben, Mikael Skoglund\
 *Preprint, 2020*
 <br>
 
-**The HSIC Bottleneck: Deep Learning without Back-Propagation** [[link](https://arxiv.org/abs/1908.01580)] \
+**The HSIC Bottleneck: Deep Learning without Back-Propagation** [[link](https://arxiv.org/abs/1908.01580)] [[code](https://github.com/choasma/HSIC-bottleneck)] \
 Wan-Duo Kurt Ma, J.P. Lewis, W. Bastiaan Kleijn
 *AAAI, 2020*
 > - This paper uses Hilbert-Schmidt independence criterion (HSIC) as a surrogate to compute mutual information in IB objective.
