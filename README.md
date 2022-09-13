@@ -1,7 +1,7 @@
 # Awesome Information Bottleneck Paper List [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 *In memory of Professor Naftali Tishby.*\
-*Last updated on August, 2022.*
+*Last updated on September, 2022.*
 <br>
 
 
@@ -21,10 +21,11 @@ This repository is organized as follows:
 - [Applications (RL)](#6-applications-rl)
 - [Methods for Mutual Information Estimation](#7-methods-for-mutual-information-estimation) (😣 MI is notoriously hard to estimate! )
 - [Other Information Theory Driven Work](#8-other-information-theory-driven-work) (verbose)
+- [Citation](#9-citation)
 
 All papers are selected and sorted by topic/conference/year/importance. Please send a pull request if you would like to add any paper.
 
-I also made [slides on theory, applications and controversy](https://github.com/ZIYU-DEEP/Awesome-Information-Bottleneck/blob/main/IB-Intro-Ye.pdf) for the initial Information Bottleneck principle in deep learning (*p.s.*, some controversy has been addressed by recent publications, *e.g.*, [Lorenzen et al., 2021](http://arxiv.org/abs/2106.12912v1)).
+We also made [slides on theory, applications and controversy](https://github.com/ZIYU-DEEP/Awesome-Information-Bottleneck/blob/main/IB-Intro-Ye.pdf) for the initial Information Bottleneck principle in deep learning (*p.s.*, some controversy has been addressed by recent publications, *e.g.*, [Lorenzen et al., 2021](http://arxiv.org/abs/2106.12912v1)).
 
 
 ## 1. Classics
@@ -206,11 +207,8 @@ Zifeng Wang, Shao-Lun Huang, Ercan Engin Kuruoglu, Jimeng Sun, Xi Chen, Yefeng Z
 > - This paper discusses using $I(w, S)$ instead to $I(T, X)$ as the information bottleneck.
 > - However, ***activations*** should in effect play a crucial role in network's generalization, but they are not explicitly captured by $I(w, S)$.
 
-**The HSIC Bottleneck: Deep Learning without Back-Propagation** [[link](https://arxiv.org/abs/1908.01580)] \
-Wan-Duo Kurt Ma, J.P. Lewis, W. Bastiaan Kleijn
-*AAAI, 2020*
-> - This paper uses Hilbert-Schmidt independence criterion (HSIC) as a surrogate to compute mutual information in IB objective.
-> - It shows an alternative way to learn a neural network without backpropagation, inspired by IB principle.
+<br>
+
 
 ## 4. Models
 **Deep Variational Information Bottleneck** [[link](https://openreview.net/forum?id=HyxQzBceg)] \
@@ -293,6 +291,12 @@ Aleksander Wieczorek, Volker Roth\
 Borja Rodríguez Gálvez, Ragnar Thobaben, Mikael Skoglund\
 *Preprint, 2020*
 <br>
+
+**The HSIC Bottleneck: Deep Learning without Back-Propagation** [[link](https://arxiv.org/abs/1908.01580)] \
+Wan-Duo Kurt Ma, J.P. Lewis, W. Bastiaan Kleijn
+*AAAI, 2020*
+> - This paper uses Hilbert-Schmidt independence criterion (HSIC) as a surrogate to compute mutual information in IB objective.
+> - It shows an alternative way to learn a neural network without backpropagation, inspired by the IB principle.
 
 **Disentangled Information Bottleneck** [[link](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjhjduUk_vyAhVZ6XMBHQlpBPoQFnoECAQQAQ&url=https%3A%2F%2Fojs.aaai.org%2Findex.php%2FAAAI%2Farticle%2Fview%2F17120%2F16927&usg=AOvVaw1yu4FBl7RBV1xGUgh21VmY)] [[code](https://github.com/PanZiqiAI/disentangled-information-bottleneck)] \
 Ziqi Pan, Li Niu, Jianfu Zhang, Liqing Zhang\
@@ -710,6 +714,12 @@ Jiaming Song, Stefano Ermon \
 
 <br>
 
+🐤 **TImproving Mutual Information Estimation with Annealed and Energy-Based Bounds** [[link](https://openreview.net/forum?id=T0B9AoM_bFg)]\
+Qing Guo, Junya Chen, Dong Wang, Yuewei Yang, Xinwei Deng, Lawrence Carin, Fan Li, Chenyang Tao\
+*ICLR, 2022*
+<br>
+
+
 ## 8. Other Information Theory Driven Work
 **f-GANs in an Information Geometric Nutshell** [[link](https://papers.nips.cc/paper/2017/hash/2f2b265625d76a6704b08093c652fd79-Abstract.html)] \
 Richard Nock, Zac Cranko, Aditya K. Menon, Lizhen Qu, Robert C. Williamson\
@@ -1057,7 +1067,15 @@ Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine\
 *Preprint, 2021*
 <br>
 
-
+## 9. Citation
+If you would like to cite this repository 🐣:
+```tex
+@misc{git2022ib,
+      title = {Awesome Information Bottleneck},
+      author = {Ziyu Ye},
+      howpublished = {\url{https://github.com/ZIYU-DEEP/Awesome-Information-Bottleneck}},
+      year = 2022}
+```
 
 
 
