@@ -704,6 +704,7 @@ Marylou Gabrié, Andre Manoel, Clément Luneau, Jean Barbier, Nicolas Macris, Fl
 *NeurIPS, 2018*
 <br>
 
+
 🐤 **Understanding the Limitations of Variational Mutual Information Estimators** [[link](https://iclr.cc/virtual_2020/poster_B1x62TNtDS.html)] [[PyTorch](https://github.com/ermongroup/smile-mi-estimator)] \
 Jiaming Song, Stefano Ermon \
 *ICLR, 2020*
@@ -713,6 +714,12 @@ Jiaming Song, Stefano Ermon \
 > - They propose SMILE which aims to reduce the variance issue.
 
 <br>
+
+🐤🐤 **Sliced Mutual Information: A Scalable Measure of Statistical Dependence** [[link](https://openreview.net/forum?id=27qon5Ut4PSl)] \
+Ziv Goldfeld, Kristjan Greenewald\
+*NeurIPS, 2021  (**spotlight**)*
+<br>
+
 
 🐤 **TImproving Mutual Information Estimation with Annealed and Energy-Based Bounds** [[link](https://openreview.net/forum?id=T0B9AoM_bFg)]\
 Qing Guo, Junya Chen, Dong Wang, Yuewei Yang, Xinwei Deng, Lawrence Carin, Fan Li, Chenyang Tao\
