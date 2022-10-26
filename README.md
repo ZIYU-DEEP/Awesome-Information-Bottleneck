@@ -1,7 +1,7 @@
 # Awesome Information Bottleneck Paper List [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 *In memory of Professor Naftali Tishby.*\
-*Last updated on September, 2022.*
+*Last updated on October, 2022.*
 <br>
 
 
@@ -630,6 +630,11 @@ Xingyu Lu, Kimin Lee, Pieter Abbeel, Stas Tiomkin\
 **Dynamic Bottleneck for Robust Self-Supervised Exploration** [[paper](https://openreview.net/forum?id=-t6TeG3A6Do)] [[code](https://github.com/Baichenjia/DB)]\
 Chenjia Bai, Lingxiao Wang, Lei Han, Animesh Garg, Jianye HAO, Peng Liu, Zhaoran Wang\
 *NeurIPS, 2021*
+<br>
+
+**Regret Bounds for Information-Directed Reinforcement Learning** [[paper](https://arxiv.org/abs/2206.04640)]\
+Botao Hao, Tor Lattimore\
+*ArXiv, 2022*
 <br>
 
 ## 7. Methods for Mutual Information Estimation
