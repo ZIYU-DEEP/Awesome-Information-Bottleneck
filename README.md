@@ -640,6 +640,16 @@ Botao Hao, Tor Lattimore\
 ## 7. Methods for Mutual Information Estimation
 > 😣😣😣 Mutual information is notoriously hard to estimate!
 
+🐤 **Benchmarking Mutual Information** [[link](https://arxiv.org/pdf/2306.11078.pdf)] [[code](https://github.com/cbg-ethz/bmi)] [[doc](https://cbg-ethz.github.io/bmi/#getting-started)] \
+Paweł Czyż, Frederic Grabowski, Julia E. Vogt, Niko Beerenwinkel, Alexander Marx\
+*NeurIPS, 2023*
+<br>
+
+**Variational f-Divergence and Derangements for Discriminative Mutual Information Estimation** [[link](https://arxiv.org/abs/2305.20025)] [[code](https://github.com/tonellolab/fDIME)] \
+Nunzio A. Letizia, Nicola Novello, Andrea M. Tonello\
+*ArXiv, 2023*
+<br>
+
 **Estimating Mutual Information** [[link](https://arxiv.org/abs/cond-mat/0305641)] [[code](https://github.com/ravidziv/IDNNs)] \
 Alexander Kraskov, Harald Stoegbauer, Peter Grassberger\
 *Physical Review, 2004*
