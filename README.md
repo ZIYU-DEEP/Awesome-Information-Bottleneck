@@ -741,6 +741,12 @@ Qing Guo, Junya Chen, Dong Wang, Yuewei Yang, Xinwei Deng, Lawrence Carin, Fan L
 *ICLR, 2022*
 <br>
 
+**Assessing Neural Network Representations During Training Using Noise-Resilient `Diffusion Spectral Entropy`** [[link](https://arxiv.org/abs/2312.04823)] [[code](https://github.com/ChenLiu-1996/DiffusionSpectralEntropy)]\
+Danqi Liao*, Chen Liu*, Benjamin W Christensen, Alexander Tong, Guillaume Huguet, Guy Wolf, Maximilian Nickel, Ian Adelstein, Smita Krishnaswamy\
+*ICML Workshop, 2023*
+> This paper leverages diffusion geometry to estimate Entropy and MI in high dimensional representations of modern neural networks.
+<br>
+
 
 ## 8. Other Information Theory Driven Work
 **f-GANs in an Information Geometric Nutshell** [[link](https://papers.nips.cc/paper/2017/hash/2f2b265625d76a6704b08093c652fd79-Abstract.html)] \
