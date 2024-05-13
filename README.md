@@ -574,9 +574,14 @@ Sen Zhang, Jing Zhang, Dacheng Tao\
 <br>
 
 **Causal Effect Estimation using Variational Information Bottleneck** [[link](https://arxiv.org/abs/2110.13705)] \
-Zhenyu Lu, Yurong Cheng, Mingjun Zhong, George Stoian, Ye Yuan, Guoren Wang\
-*Preprint, 2022*
+Zhenyu Lu, Yurong Cheng, Mingjun Zhong, George Stoian, Ye Yuan, Guoren Wang\  
+*Preprint, 2022*  
 <br>
+
+**Mitigating Reward Hacking via Information-Theoretic Reward Modeling** [[link]([https://arxiv.org/abs/2110.13705](https://arxiv.org/pdf/2402.09345))] \
+Yuchun Miao, Sen Zhang, Liang Ding, Rong Bao, Lefei Zhang, Dacheng Tao\  
+*Preprint, 2024*  
+<br>  
 
 ## 6. Applications (RL)
 **InfoBot: Transfer and Exploration via the Information Bottleneck** [[paper](https://openreview.net/forum?id=rJg8yhAqKm)] [[code](https://github.com/maximecb/gym-minigrid)]\
