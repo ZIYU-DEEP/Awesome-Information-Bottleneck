@@ -1100,6 +1100,11 @@ Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine\
 *Preprint, 2021*
 <br>
 
+**Demonstrating and Reducing Shortcuts in Vision-Language Representation Learning** [[link](https://arxiv.org/pdf/2402.17510)] \
+Maurits Bleeker*, Mariya Hendriksen*, Andrew Yates, Maarten de Rijke\
+*TMLR, 2024*
+<br>
+
 ## 9. Citation
 If you would like to cite this repository 🐣:
 ```tex
